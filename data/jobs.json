@@ -1,0 +1,2784 @@
+[
+  {
+    "id": 1,
+    "title": "Associate Full Stack Developer",
+    "company": "Microsoft",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Sydney",
+    "salary": "11L - 17L LPA",
+    "experienceRequired": "1 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 14,
+    "appliedUsers": [
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Product Analyst",
+    "company": "IBM",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Pune",
+    "salary": "11L - 15L LPA",
+    "experienceRequired": "1 years",
+    "department": "Artificial Intelligence and Data Science",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "AI Research Intern",
+    "company": "Intel",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "New York",
+    "salary": "10L - 20L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 14,
+    "appliedUsers": [
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Under Review"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Associate Full Stack Developer",
+    "company": "Deloitte",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Pune",
+    "salary": "12L - 22L LPA",
+    "experienceRequired": "2 years",
+    "department": "Civil Engineering",
+    "appliedCount": 16,
+    "appliedUsers": [
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Full-time Software Engineer",
+    "company": "Adobe",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Chennai",
+    "salary": "7L - 22L LPA",
+    "experienceRequired": "2 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "AI Research Intern",
+    "company": "Cognizant",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "New York",
+    "salary": "9L - 23L LPA",
+    "experienceRequired": "0 years",
+    "department": "Information Technology",
+    "appliedCount": 4,
+    "appliedUsers": [
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Graduate Engineer Trainee",
+    "company": "Goldman Sachs",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Kolkata",
+    "salary": "5L - 18L LPA",
+    "experienceRequired": "1 years",
+    "department": "Civil Engineering",
+    "appliedCount": 5,
+    "appliedUsers": [
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Product Analyst",
+    "company": "Google",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Austin",
+    "salary": "5L - 25L LPA",
+    "experienceRequired": "1 years",
+    "department": "Civil Engineering",
+    "appliedCount": 3,
+    "appliedUsers": [
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Data Analyst Intern",
+    "company": "Microsoft",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Austin",
+    "salary": "9L - 16L LPA",
+    "experienceRequired": "0 years",
+    "department": "Information Technology",
+    "appliedCount": 11,
+    "appliedUsers": [
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "VLSI Design Engineer",
+    "company": "Capgemini",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Bangalore",
+    "salary": "9L - 19L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 18,
+    "appliedUsers": [
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Data Analyst Intern",
+    "company": "Tesla",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Sydney",
+    "salary": "11L - 22L LPA",
+    "experienceRequired": "2 years",
+    "department": "Civil Engineering",
+    "appliedCount": 4,
+    "appliedUsers": [
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Associate Full Stack Developer",
+    "company": "Cisco",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Singapore",
+    "salary": "12L - 24L LPA",
+    "experienceRequired": "1 years",
+    "department": "Civil Engineering",
+    "appliedCount": 16,
+    "appliedUsers": [
+      {
+        "email": "user@college.edu",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Graduate Engineer Trainee",
+    "company": "Capgemini",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Mumbai",
+    "salary": "12L - 15L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 11,
+    "appliedUsers": [
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Associate Full Stack Developer",
+    "company": "Cisco",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "New York",
+    "salary": "10L - 24L LPA",
+    "experienceRequired": "2 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 20,
+    "appliedUsers": [
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Data Analyst Intern",
+    "company": "Accenture",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Seattle",
+    "salary": "8L - 16L LPA",
+    "experienceRequired": "2 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 12,
+    "appliedUsers": [
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "riya.joshi164124@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Full-time Software Engineer",
+    "company": "Cisco",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Dublin",
+    "salary": "11L - 21L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 5,
+    "appliedUsers": [
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Structural Engineering Associate",
+    "company": "Accenture",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Kolkata",
+    "salary": "5L - 16L LPA",
+    "experienceRequired": "2 years",
+    "department": "Civil Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Product Analyst",
+    "company": "Amazon",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Austin",
+    "salary": "6L - 15L LPA",
+    "experienceRequired": "2 years",
+    "department": "Artificial Intelligence and Data Science",
+    "appliedCount": 18,
+    "appliedUsers": [
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Data Analyst Intern",
+    "company": "Cisco",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Singapore",
+    "salary": "5L - 16L LPA",
+    "experienceRequired": "1 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 15,
+    "appliedUsers": [
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "riya.joshi164124@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Product Analyst",
+    "company": "Apple",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Pune",
+    "salary": "12L - 16L LPA",
+    "experienceRequired": "2 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "riya.joshi164124@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Systems Engineer",
+    "company": "Deloitte",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "New York",
+    "salary": "12L - 24L LPA",
+    "experienceRequired": "1 years",
+    "department": "Mechanical Engineering",
+    "appliedCount": 12,
+    "appliedUsers": [
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Product Analyst",
+    "company": "Goldman Sachs",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Sydney",
+    "salary": "9L - 25L LPA",
+    "experienceRequired": "2 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 10,
+    "appliedUsers": [
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Systems Engineer",
+    "company": "Microsoft",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Sydney",
+    "salary": "11L - 16L LPA",
+    "experienceRequired": "1 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Product Analyst",
+    "company": "Meta",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "New York",
+    "salary": "12L - 22L LPA",
+    "experienceRequired": "1 years",
+    "department": "Artificial Intelligence and Data Science",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Graduate Engineer Trainee",
+    "company": "L&T",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "New York",
+    "salary": "6L - 25L LPA",
+    "experienceRequired": "2 years",
+    "department": "Mechanical Engineering",
+    "appliedCount": 2,
+    "appliedUsers": [
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Graduate Engineer Trainee",
+    "company": "Infosys",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Seattle",
+    "salary": "7L - 17L LPA",
+    "experienceRequired": "0 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 20,
+    "appliedUsers": [
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "VLSI Design Engineer",
+    "company": "Netflix",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Mumbai",
+    "salary": "7L - 21L LPA",
+    "experienceRequired": "1 years",
+    "department": "Artificial Intelligence and Data Science",
+    "appliedCount": 12,
+    "appliedUsers": [
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "AI Research Intern",
+    "company": "IBM",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Dublin",
+    "salary": "12L - 19L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 12,
+    "appliedUsers": [
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Associate Full Stack Developer",
+    "company": "L&T",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Pune",
+    "salary": "11L - 19L LPA",
+    "experienceRequired": "0 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 15,
+    "appliedUsers": [
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Product Analyst",
+    "company": "Salesforce",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Austin",
+    "salary": "10L - 14L LPA",
+    "experienceRequired": "2 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Systems Engineer",
+    "company": "IBM",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "San Francisco",
+    "salary": "8L - 25L LPA",
+    "experienceRequired": "1 years",
+    "department": "Civil Engineering",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Full-time Software Engineer",
+    "company": "Meta",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Singapore",
+    "salary": "8L - 20L LPA",
+    "experienceRequired": "1 years",
+    "department": "Information Technology",
+    "appliedCount": 17,
+    "appliedUsers": [
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Product Analyst",
+    "company": "Capgemini",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Seattle",
+    "salary": "9L - 21L LPA",
+    "experienceRequired": "2 years",
+    "department": "Artificial Intelligence and Data Science",
+    "appliedCount": 12,
+    "appliedUsers": [
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "riya.joshi164124@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Product Analyst",
+    "company": "Goldman Sachs",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "London",
+    "salary": "11L - 24L LPA",
+    "experienceRequired": "2 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Under Review"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Graduate Engineer Trainee",
+    "company": "Infosys",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Bangalore",
+    "salary": "12L - 23L LPA",
+    "experienceRequired": "1 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Structural Engineering Associate",
+    "company": "Qualcomm",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Pune",
+    "salary": "6L - 22L LPA",
+    "experienceRequired": "0 years",
+    "department": "Artificial Intelligence and Data Science",
+    "appliedCount": 2,
+    "appliedUsers": [
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "AI Research Intern",
+    "company": "IBM",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Singapore",
+    "salary": "11L - 23L LPA",
+    "experienceRequired": "0 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 2,
+    "appliedUsers": [
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Associate Full Stack Developer",
+    "company": "Oracle",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Noida",
+    "salary": "12L - 17L LPA",
+    "experienceRequired": "0 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 2,
+    "appliedUsers": [
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Structural Engineering Associate",
+    "company": "Amazon",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Noida",
+    "salary": "11L - 14L LPA",
+    "experienceRequired": "2 years",
+    "department": "Information Technology",
+    "appliedCount": 16,
+    "appliedUsers": [
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Associate Full Stack Developer",
+    "company": "Qualcomm",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Bangalore",
+    "salary": "12L - 20L LPA",
+    "experienceRequired": "2 years",
+    "department": "Mechanical Engineering",
+    "appliedCount": 15,
+    "appliedUsers": [
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Associate Full Stack Developer",
+    "company": "Adobe",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "San Francisco",
+    "salary": "5L - 19L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "AI Research Intern",
+    "company": "Salesforce",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "San Francisco",
+    "salary": "5L - 24L LPA",
+    "experienceRequired": "0 years",
+    "department": "Mechanical Engineering",
+    "appliedCount": 17,
+    "appliedUsers": [
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Data Analyst Intern",
+    "company": "Deloitte",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "London",
+    "salary": "8L - 18L LPA",
+    "experienceRequired": "1 years",
+    "department": "Mechanical Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Data Analyst Intern",
+    "company": "Cognizant",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Austin",
+    "salary": "10L - 15L LPA",
+    "experienceRequired": "0 years",
+    "department": "Civil Engineering",
+    "appliedCount": 11,
+    "appliedUsers": [
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Graduate Engineer Trainee",
+    "company": "Cisco",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Seattle",
+    "salary": "11L - 22L LPA",
+    "experienceRequired": "2 years",
+    "department": "Information Technology",
+    "appliedCount": 3,
+    "appliedUsers": [
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Data Analyst Intern",
+    "company": "Goldman Sachs",
+    "description": "Looking for a motivated graduate with strong foundation in data structures, algorithms, and analytical thinking.",
+    "location": "Chennai",
+    "salary": "5L - 16L LPA",
+    "experienceRequired": "1 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 18,
+    "appliedUsers": [
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "tarun.das244076@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Rejected"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Under Review"
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Applied"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Associate Full Stack Developer",
+    "company": "JP Morgan",
+    "description": "Analyze data patterns, build statistical models, and communicate insights to the product and operations teams.",
+    "location": "Noida",
+    "salary": "11L - 15L LPA",
+    "experienceRequired": "0 years",
+    "department": "Electrical and Electronics Engineering",
+    "appliedCount": 8,
+    "appliedUsers": [
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Structural Engineering Associate",
+    "company": "Salesforce",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "New York",
+    "salary": "10L - 22L LPA",
+    "experienceRequired": "0 years",
+    "department": "Information Technology",
+    "appliedCount": 10,
+    "appliedUsers": [
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "riya.joshi164124@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Interview Scheduled"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Full-time Software Engineer",
+    "company": "Amazon",
+    "description": "Collaborate with multi-functional teams to research, design, develop, test, and release robust engineering products.",
+    "location": "Bangalore",
+    "salary": "9L - 23L LPA",
+    "experienceRequired": "2 years",
+    "department": "Computer Science and Engineering",
+    "appliedCount": 9,
+    "appliedUsers": [
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Shortlisted"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Data Analyst Intern",
+    "company": "Salesforce",
+    "description": "Responsible for designing, building, and maintaining code modules, writing unit tests, and documenting configurations.",
+    "location": "Austin",
+    "salary": "9L - 14L LPA",
+    "experienceRequired": "2 years",
+    "department": "Electronics and Communication Engineering",
+    "appliedCount": 20,
+    "appliedUsers": [
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "riya.joshi164124@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Under Review"
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Rejected"
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Applied"
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Shortlisted"
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Applied"
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Interview Scheduled"
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Under Review"
+      }
+    ]
+  }
+]

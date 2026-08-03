@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Opportunities - AlumniHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-card">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">H</div>
+                <div class="sidebar-logo-text">AlumniHub</div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="sidebar-item">
+                    <a href="dashboard.html"><i class="fas fa-chart-pie"></i> Overview</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="alumni.html"><i class="fas fa-users"></i> Alumni Directory</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="events.html"><i class="fas fa-calendar-alt"></i> Events & Meets</a>
+                </li>
+                <li class="sidebar-item active">
+                    <a href="jobs.html"><i class="fas fa-briefcase"></i> Job Board</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="mentorship.html"><i class="fas fa-hands-helping"></i> Mentorship Hub</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="reports.html"><i class="fas fa-file-invoice-dollar"></i> Analytical Reports</a>
+                </li>
+            </ul>
+
+            <div class="sidebar-user">
+                <img src="" alt="Avatar" class="sidebar-user-avatar">
+                <div class="sidebar-user-info">
+                    <span class="sidebar-user-name">Loading...</span>
+                    <span class="sidebar-user-role">Role</span>
+                </div>
+                <button class="sidebar-user-logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Navbar -->
+            <header class="navbar">
+                <div class="flex items-center">
+                    <button class="menu-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+                    <h1 class="page-title">Career Placements</h1>
+                </div>
+                
+                <div class="navbar-actions">
+                    <button class="nav-btn" id="theme-toggle-btn">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Actions Bar -->
+            <section class="glass-card mb-4" style="padding: 20px;">
+                <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: 15px;">
+                    <!-- Filter and Search -->
+                    <div class="flex" style="gap: 12px; flex-wrap: wrap; flex-grow: 1; max-width: 600px;">
+                        <input type="text" id="job-search" class="form-control" placeholder="Search title, company or city..." style="flex-grow: 1;">
+                        <select id="job-filter-dept" class="form-control" style="width: 200px;">
+                            <option value="">All Departments</option>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+
+                    <!-- Post a job (Admins/Alumni only) -->
+                    <button class="btn btn-primary" id="btn-post-job">
+                        <i class="fas fa-plus"></i> Post Job Opening
+                    </button>
+                </div>
+            </section>
+
+            <!-- Jobs Grid -->
+            <section class="grid interactive-grid" id="jobs-grid-container">
+                <!-- Job cards populated dynamically -->
+            </section>
+        </main>
+    </div>
+
+    <!-- Create Job Modal -->
+    <div class="modal" id="job-modal">
+        <div class="modal-content glass-card">
+            <div class="modal-header">
+                <h3 id="job-modal-title">Post New Job Opening</h3>
+                <button class="modal-close" id="job-modal-close-btn">&times;</button>
+            </div>
+            
+            <form id="job-form">
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-job-title">Job Title *</label>
+                        <input type="text" id="form-job-title" class="form-control" required placeholder="Full Stack Developer">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-job-company">Company Name *</label>
+                        <input type="text" id="form-job-company" class="form-control" required placeholder="Google">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="form-job-desc">Job Description *</label>
+                    <textarea id="form-job-desc" class="form-control" rows="4" required placeholder="Detail the duties, requirements, tech stacks..."></textarea>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-job-loc">Location (City) *</label>
+                        <input type="text" id="form-job-loc" class="form-control" required placeholder="Bangalore">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-job-dept">Eligible Department *</label>
+                        <select id="form-job-dept" class="form-control" required>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-job-salary">Salary CTC Range *</label>
+                        <input type="text" id="form-job-salary" class="form-control" required placeholder="8L - 14L LPA">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-job-exp">Experience Required *</label>
+                        <input type="text" id="form-job-exp" class="form-control" required placeholder="0-2 years">
+                    </div>
+                </div>
+
+                <div class="flex justify-end gap-2 mt-4" style="border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <button type="button" class="btn btn-secondary" id="job-form-cancel-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Post Job</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/jobs.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Reunions - AlumniHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-card">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">H</div>
+                <div class="sidebar-logo-text">AlumniHub</div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="sidebar-item">
+                    <a href="dashboard.html"><i class="fas fa-chart-pie"></i> Overview</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="alumni.html"><i class="fas fa-users"></i> Alumni Directory</a>
+                </li>
+                <li class="sidebar-item active">
+                    <a href="events.html"><i class="fas fa-calendar-alt"></i> Events & Meets</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="jobs.html"><i class="fas fa-briefcase"></i> Job Board</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="mentorship.html"><i class="fas fa-hands-helping"></i> Mentorship Hub</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="reports.html"><i class="fas fa-file-invoice-dollar"></i> Analytical Reports</a>
+                </li>
+            </ul>
+
+            <div class="sidebar-user">
+                <img src="" alt="Avatar" class="sidebar-user-avatar">
+                <div class="sidebar-user-info">
+                    <span class="sidebar-user-name">Loading...</span>
+                    <span class="sidebar-user-role">Role</span>
+                </div>
+                <button class="sidebar-user-logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Navbar -->
+            <header class="navbar">
+                <div class="flex items-center">
+                    <button class="menu-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+                    <h1 class="page-title">Events & reunions</h1>
+                </div>
+                
+                <div class="navbar-actions">
+                    <button class="nav-btn" id="theme-toggle-btn">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Actions Bar -->
+            <section class="glass-card mb-4" style="padding: 20px;">
+                <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: 15px;">
+                    <!-- Filter and Search -->
+                    <div class="flex" style="gap: 12px; flex-wrap: wrap; flex-grow: 1; max-width: 600px;">
+                        <input type="text" id="event-search" class="form-control" placeholder="Search events..." style="flex-grow: 1;">
+                        <select id="event-filter-dept" class="form-control" style="width: 200px;">
+                            <option value="">All Departments</option>
+                            <!-- Dynamically populated -->
+                        </select>
+                    </div>
+
+                    <!-- Add Event (Admins only) -->
+                    <button class="btn btn-primary" id="btn-create-event" style="display: none;">
+                        <i class="fas fa-calendar-plus"></i> Schedule Event
+                    </button>
+                </div>
+            </section>
+
+            <!-- Events Grid -->
+            <section class="grid interactive-grid" id="events-grid-container">
+                <!-- Event cards populated dynamically -->
+            </section>
+        </main>
+    </div>
+
+    <!-- Create/Edit Event Modal -->
+    <div class="modal" id="event-modal">
+        <div class="modal-content glass-card">
+            <div class="modal-header">
+                <h3 id="event-modal-title">Schedule New Event</h3>
+                <button class="modal-close" id="event-modal-close-btn">&times;</button>
+            </div>
+            
+            <form id="event-form">
+                <input type="hidden" id="event-id">
+                
+                <div class="form-group">
+                    <label for="form-event-title">Event Title *</label>
+                    <input type="text" id="form-event-title" class="form-control" required placeholder="Alumni Meet 2026">
+                </div>
+
+                <div class="form-group">
+                    <label for="form-event-desc">Description *</label>
+                    <textarea id="form-event-desc" class="form-control" rows="4" required placeholder="Describe the purpose, agendas, speakers..."></textarea>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-event-date">Date *</label>
+                        <input type="date" id="form-event-date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-event-time">Time *</label>
+                        <input type="time" id="form-event-time" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-event-loc">Location / Venue *</label>
+                        <input type="text" id="form-event-loc" class="form-control" required placeholder="Seminar Hall A or Virtual Zoom">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-event-dept">Target Department</label>
+                        <select id="form-event-dept" class="form-control">
+                            <option value="All Departments">All Departments</option>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="flex justify-end gap-2 mt-4" style="border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <button type="button" class="btn btn-secondary" id="event-form-cancel-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Schedule Event</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>

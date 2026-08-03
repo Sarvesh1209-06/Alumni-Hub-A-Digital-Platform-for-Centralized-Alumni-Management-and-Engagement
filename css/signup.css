@@ -1,0 +1,350 @@
+/* =====================================================
+   css/signup.css — Multi-Step Registration Form Styles
+   ===================================================== */
+
+/* Wider card for the multi-step form */
+.signup-card {
+    width: 100%;
+    max-width: 720px;
+    padding: 36px 40px;
+    z-index: 10;
+}
+
+.signup-container {
+    align-items: flex-start;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* ── Step Progress Bar ─────────────────────────────── */
+.step-progress {
+    margin: 20px 0 30px;
+    position: relative;
+}
+
+.step-track {
+    height: 4px;
+    background: var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.step-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+.step-dots {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.step-dot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.step-num {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--border-color);
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.step-dot.active .step-num {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    box-shadow: 0 4px 12px var(--primary-glow);
+}
+
+.step-dot.completed .step-num {
+    background: var(--accent-color);
+    color: white;
+}
+
+.step-dot.completed .step-num::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+.step-dot.completed .step-num span {
+    display: none;
+}
+
+.step-label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.step-dot.active .step-label {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* ── Step Title ────────────────────────────────────── */
+.step-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.step-title i {
+    color: var(--primary-color);
+}
+
+/* ── Form Steps (show/hide) ─────────────────────────── */
+.form-step {
+    display: none;
+    animation: fadeSlide 0.35s ease;
+}
+
+.form-step.active {
+    display: block;
+}
+
+@keyframes fadeSlide {
+    from { opacity: 0; transform: translateX(20px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ── Form Row (two columns) ─────────────────────────── */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.form-row.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* ── Required Star ──────────────────────────────────── */
+.required {
+    color: var(--danger-color);
+    margin-left: 2px;
+}
+
+/* ── Photo Upload ───────────────────────────────────── */
+.photo-upload-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    border: 2px dashed var(--border-color);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    position: relative;
+}
+
+.photo-upload-area:hover {
+    border-color: var(--primary-color);
+}
+
+.photo-upload-area img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+    flex-shrink: 0;
+}
+
+.photo-upload-label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.photo-upload-label i {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+/* ── File Upload Area (Resume) ──────────────────────── */
+.file-upload-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border: 2px dashed var(--border-color);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    position: relative; /* ensure absolute child (hidden file input) is confined to this area */
+}
+
+.file-upload-area:hover {
+    border-color: var(--primary-color);
+}
+
+.file-upload-area i {
+    font-size: 1.4rem;
+    color: var(--danger-color);
+}
+
+/* ── Hidden file input ──────────────────────────────── */
+.file-input-hidden {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+/* ── Password Input with Eye Toggle ─────────────────── */
+.input-icon-wrap {
+    position: relative;
+}
+
+.input-icon-wrap .form-control {
+    padding-right: 44px;
+}
+
+.toggle-pw {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+    z-index: 2;
+}
+
+.toggle-pw:hover {
+    color: var(--primary-color);
+}
+
+/* ── Engagement Checkboxes ──────────────────────────── */
+.engagement-grid {
+    margin-top: 8px;
+}
+
+.engagement-label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+.engagement-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.toggle-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    transition: all 0.2s;
+}
+
+.toggle-check:hover {
+    border-color: var(--primary-color);
+    color: var(--text-primary);
+}
+
+.toggle-check input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 2px solid var(--border-color);
+    flex-shrink: 0;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-check input:checked ~ .toggle-box {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.toggle-check input:checked ~ .toggle-box::after {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: white;
+    font-size: 0.65rem;
+}
+
+.toggle-check input:checked ~ span:last-child {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* ── Navigation Buttons ─────────────────────────────── */
+.form-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    gap: 12px;
+}
+
+.form-nav .btn {
+    min-width: 140px;
+}
+
+/* ── Textarea ───────────────────────────────────────── */
+textarea.form-control {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* ── Responsive ─────────────────────────────────────── */
+@media (max-width: 640px) {
+    .signup-card { padding: 24px 20px; }
+    .form-row    { grid-template-columns: 1fr; }
+    .engagement-options { grid-template-columns: 1fr; }
+    .step-label  { display: none; }
+}

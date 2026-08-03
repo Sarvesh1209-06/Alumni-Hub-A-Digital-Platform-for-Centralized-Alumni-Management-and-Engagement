@@ -1,0 +1,3346 @@
+[
+  {
+    "id": 1,
+    "name": "Sunita Kar",
+    "company": "Meta",
+    "designation": "Technical Lead",
+    "department": "Computer Science and Engineering",
+    "batch": 2011,
+    "email": "sunita.kar2011@gmail.com",
+    "skills": [
+      "C++",
+      "Data Structures",
+      "Kubernetes",
+      "AWS"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "admin@college.edu",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Isha Joshi",
+    "company": "TCS",
+    "designation": "Data Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2018,
+    "email": "isha.joshi2018@gmail.com",
+    "skills": [
+      "Java",
+      "JavaScript",
+      "Angular"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kriti Sen",
+    "company": "Cognizant",
+    "designation": "Data Engineer",
+    "department": "Civil Engineering",
+    "batch": 2014,
+    "email": "kriti.sen2014@gmail.com",
+    "skills": [
+      "Algorithms",
+      "AWS",
+      "NoSQL",
+      "Machine Learning",
+      "React"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Rajesh Das",
+    "company": "Tesla",
+    "designation": "Network Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2015,
+    "email": "rajesh.das2015@gmail.com",
+    "skills": [
+      "Data Structures",
+      "Flask",
+      "Django",
+      "Java"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 5,
+    "name": "Sunita Pillai",
+    "company": "Microsoft",
+    "designation": "Full Stack Developer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2011,
+    "email": "sunita.pillai2011@gmail.com",
+    "skills": [
+      "Django",
+      "Kubernetes",
+      "C++",
+      "Docker",
+      "Flask"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "James Saha",
+    "company": "Capgemini",
+    "designation": "Full Stack Developer",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2014,
+    "email": "james.saha2014@gmail.com",
+    "skills": [
+      "HTML/CSS",
+      "Algorithms",
+      "Vue.js",
+      "Spring Boot",
+      "UI/UX Design"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vijay Pandey",
+    "company": "Adobe",
+    "designation": "Data Engineer",
+    "department": "Mechanical Engineering",
+    "batch": 2011,
+    "email": "vijay.pandey2011@gmail.com",
+    "skills": [
+      "React",
+      "Node.js",
+      "AWS",
+      "Spring Boot",
+      "Django"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 8,
+    "name": "Pranav Sen",
+    "company": "Tesla",
+    "designation": "Full Stack Developer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2014,
+    "email": "pranav.sen2014@gmail.com",
+    "skills": [
+      "C++",
+      "TypeScript",
+      "UI/UX Design",
+      "Algorithms"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "admin@college.edu",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Rahul Adhikary",
+    "company": "Meta",
+    "designation": "Director of Engineering",
+    "department": "Information Technology",
+    "batch": 2021,
+    "email": "rahul.adhikary2021@gmail.com",
+    "skills": [
+      "UI/UX Design",
+      "Python",
+      "Data Structures",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "John Jones",
+    "company": "Wipro",
+    "designation": "Network Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2011,
+    "email": "john.jones2011@gmail.com",
+    "skills": [
+      "HTML/CSS",
+      "Data Structures",
+      "Django"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Tarun Ghosh",
+    "company": "Qualcomm",
+    "designation": "Technical Lead",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2021,
+    "email": "tarun.ghosh2021@gmail.com",
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sneha Kar",
+    "company": "Goldman Sachs",
+    "designation": "UI/UX Designer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2019,
+    "email": "sneha.kar2019@gmail.com",
+    "skills": [
+      "Python",
+      "Docker",
+      "Algorithms",
+      "AWS"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 13,
+    "name": "Meera Williams",
+    "company": "IBM",
+    "designation": "Cloud Architect",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2013,
+    "email": "meera.williams2013@gmail.com",
+    "skills": [
+      "Python",
+      "Spring Boot",
+      "NoSQL",
+      "Angular"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Sunita Rodriguez",
+    "company": "Meta",
+    "designation": "Consultant",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2013,
+    "email": "sunita.rodriguez2013@gmail.com",
+    "skills": [
+      "Flask",
+      "Git",
+      "UI/UX Design",
+      "SQL"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Arjun Nair",
+    "company": "Intel",
+    "designation": "Director of Engineering",
+    "department": "Information Technology",
+    "batch": 2019,
+    "email": "arjun.nair2019@gmail.com",
+    "skills": [
+      "Flask",
+      "Docker",
+      "HTML/CSS",
+      "Data Structures",
+      "UI/UX Design"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Arjun Kar",
+    "company": "L&T",
+    "designation": "Hardware Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2018,
+    "email": "arjun.kar2018@gmail.com",
+    "skills": [
+      "TypeScript",
+      "Kubernetes",
+      "Vue.js",
+      "Algorithms"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 17,
+    "name": "Michael Iyer",
+    "company": "L&T",
+    "designation": "Business Analyst",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2012,
+    "email": "michael.iyer2012@gmail.com",
+    "skills": [
+      "Kubernetes",
+      "React",
+      "Python",
+      "Figma"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "user@college.edu",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Kabir Gupta",
+    "company": "Deloitte",
+    "designation": "Full Stack Developer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2012,
+    "email": "kabir.gupta2012@gmail.com",
+    "skills": [
+      "NoSQL",
+      "Angular",
+      "Spring Boot",
+      "Java",
+      "Figma"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Aisha Kumar",
+    "company": "Cognizant",
+    "designation": "Full Stack Developer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2011,
+    "email": "aisha.kumar2011@gmail.com",
+    "skills": [
+      "SQL",
+      "NoSQL",
+      "Django",
+      "Git"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Divya Ghosh",
+    "company": "Meta",
+    "designation": "Data Scientist",
+    "department": "Civil Engineering",
+    "batch": 2021,
+    "email": "divya.ghosh2021@gmail.com",
+    "skills": [
+      "TypeScript",
+      "Data Structures",
+      "UI/UX Design",
+      "HTML/CSS"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Sophia Roy",
+    "company": "Google",
+    "designation": "Cloud Architect",
+    "department": "Mechanical Engineering",
+    "batch": 2022,
+    "email": "sophia.roy2022@gmail.com",
+    "skills": [
+      "React",
+      "Python",
+      "TypeScript",
+      "C++"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sanjay.rodriguez226436@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Shreya Brown",
+    "company": "Netflix",
+    "designation": "Senior Software Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2012,
+    "email": "shreya.brown2012@gmail.com",
+    "skills": [
+      "HTML/CSS",
+      "React",
+      "Kubernetes"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Aarav Kumar",
+    "company": "Accenture",
+    "designation": "Technical Lead",
+    "department": "Mechanical Engineering",
+    "batch": 2019,
+    "email": "aarav.kumar2019@gmail.com",
+    "skills": [
+      "Data Structures",
+      "Git",
+      "Figma"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Madhav Deshmukh",
+    "company": "Infosys",
+    "designation": "QA Automation Engineer",
+    "department": "Information Technology",
+    "batch": 2017,
+    "email": "madhav.deshmukh2017@gmail.com",
+    "skills": [
+      "Spring Boot",
+      "Docker",
+      "Angular",
+      "UI/UX Design"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pranav Garcia",
+    "company": "Cognizant",
+    "designation": "Technical Lead",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2021,
+    "email": "pranav.garcia2021@gmail.com",
+    "skills": [
+      "Node.js",
+      "Spring Boot",
+      "Python",
+      "JavaScript"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Meera Sen",
+    "company": "Cisco",
+    "designation": "Software Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2011,
+    "email": "meera.sen2011@gmail.com",
+    "skills": [
+      "Angular",
+      "Spring Boot",
+      "Java"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "siddharth.sharma224426@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Sanjay Wilson",
+    "company": "Cisco",
+    "designation": "Product Manager",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2013,
+    "email": "sanjay.wilson2013@gmail.com",
+    "skills": [
+      "Machine Learning",
+      "TypeScript",
+      "Kubernetes",
+      "SQL",
+      "Angular"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "John Adhikary",
+    "company": "Goldman Sachs",
+    "designation": "Data Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2018,
+    "email": "john.adhikary2018@gmail.com",
+    "skills": [
+      "Vue.js",
+      "Spring Boot",
+      "JavaScript",
+      "Angular"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Sunita Choudhury",
+    "company": "Goldman Sachs",
+    "designation": "Consultant",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2011,
+    "email": "sunita.choudhury2011@gmail.com",
+    "skills": [
+      "JavaScript",
+      "Git",
+      "Node.js",
+      "HTML/CSS",
+      "Kubernetes"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Deepak Mishra",
+    "company": "JP Morgan",
+    "designation": "Technical Lead",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2022,
+    "email": "deepak.mishra2022@gmail.com",
+    "skills": [
+      "Kubernetes",
+      "C++",
+      "JavaScript",
+      "Node.js",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Aisha Mishra",
+    "company": "TCS",
+    "designation": "Cloud Architect",
+    "department": "Civil Engineering",
+    "batch": 2016,
+    "email": "aisha.mishra2016@gmail.com",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Figma",
+      "Java"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 32,
+    "name": "Harsh Mukherjee",
+    "company": "L&T",
+    "designation": "Data Scientist",
+    "department": "Mechanical Engineering",
+    "batch": 2012,
+    "email": "harsh.mukherjee2012@gmail.com",
+    "skills": [
+      "Angular",
+      "Kubernetes",
+      "Java"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Rajesh Verma",
+    "company": "JP Morgan",
+    "designation": "Project Manager",
+    "department": "Computer Science and Engineering",
+    "batch": 2019,
+    "email": "rajesh.verma2019@gmail.com",
+    "skills": [
+      "JavaScript",
+      "React",
+      "HTML/CSS",
+      "Spring Boot",
+      "Data Structures"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 34,
+    "name": "Kabir Singh",
+    "company": "L&T",
+    "designation": "Hardware Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2013,
+    "email": "kabir.singh2013@gmail.com",
+    "skills": [
+      "SQL",
+      "Algorithms",
+      "Machine Learning",
+      "HTML/CSS",
+      "AWS"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "harsh.ghosh204040@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Kabir Adhikary",
+    "company": "Qualcomm",
+    "designation": "Hardware Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2014,
+    "email": "kabir.adhikary2014@gmail.com",
+    "skills": [
+      "Node.js",
+      "NoSQL",
+      "Django",
+      "TypeScript",
+      "Vue.js"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Kabir Adhikary",
+    "company": "Deloitte",
+    "designation": "UI/UX Designer",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2011,
+    "email": "kabir.adhikary2011@gmail.com",
+    "skills": [
+      "Angular",
+      "Figma",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Isha Mishra",
+    "company": "Infosys",
+    "designation": "Senior Software Engineer",
+    "department": "Mechanical Engineering",
+    "batch": 2011,
+    "email": "isha.mishra2011@gmail.com",
+    "skills": [
+      "HTML/CSS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "james.adhikary244784@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Deepak Reddy",
+    "company": "Adobe",
+    "designation": "Senior Software Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2021,
+    "email": "deepak.reddy2021@gmail.com",
+    "skills": [
+      "Spring Boot",
+      "Vue.js",
+      "HTML/CSS",
+      "Kubernetes"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Meera Verma",
+    "company": "Goldman Sachs",
+    "designation": "Software Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2019,
+    "email": "meera.verma2019@gmail.com",
+    "skills": [
+      "Docker",
+      "Flask",
+      "JavaScript"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Tarun Gupta",
+    "company": "Infosys",
+    "designation": "UI/UX Designer",
+    "department": "Computer Science and Engineering",
+    "batch": 2017,
+    "email": "tarun.gupta2017@gmail.com",
+    "skills": [
+      "C++",
+      "Django",
+      "Docker",
+      "Git",
+      "Algorithms"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Rahul Jones",
+    "company": "Goldman Sachs",
+    "designation": "Data Scientist",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2016,
+    "email": "rahul.jones2016@gmail.com",
+    "skills": [
+      "Vue.js",
+      "Machine Learning",
+      "SQL",
+      "JavaScript"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Dev Davis",
+    "company": "Infosys",
+    "designation": "Software Engineer",
+    "department": "Information Technology",
+    "batch": 2016,
+    "email": "dev.davis2016@gmail.com",
+    "skills": [
+      "JavaScript",
+      "C++",
+      "HTML/CSS",
+      "Docker",
+      "Git"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "jessica.saha218149@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Gaurav Kar",
+    "company": "Apple",
+    "designation": "Data Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2016,
+    "email": "gaurav.kar2016@gmail.com",
+    "skills": [
+      "Machine Learning",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 44,
+    "name": "Ananya Jones",
+    "company": "Intel",
+    "designation": "Data Scientist",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2022,
+    "email": "ananya.jones2022@gmail.com",
+    "skills": [
+      "Java",
+      "HTML/CSS",
+      "Figma",
+      "UI/UX Design"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Bhavna Iyer",
+    "company": "Adobe",
+    "designation": "Cloud Architect",
+    "department": "Civil Engineering",
+    "batch": 2022,
+    "email": "bhavna.iyer2022@gmail.com",
+    "skills": [
+      "NoSQL",
+      "HTML/CSS",
+      "Machine Learning",
+      "Java",
+      "Vue.js"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Aisha Pandey",
+    "company": "Google",
+    "designation": "Senior Software Engineer",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2020,
+    "email": "aisha.pandey2020@gmail.com",
+    "skills": [
+      "TypeScript",
+      "Spring Boot",
+      "Vue.js",
+      "Kubernetes",
+      "Data Structures"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Rohan Choudhury",
+    "company": "Oracle",
+    "designation": "Technical Lead",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2021,
+    "email": "rohan.choudhury2021@gmail.com",
+    "skills": [
+      "Machine Learning",
+      "Flask",
+      "Node.js",
+      "SQL"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 48,
+    "name": "Kabir Williams",
+    "company": "TCS",
+    "designation": "Cloud Architect",
+    "department": "Mechanical Engineering",
+    "batch": 2021,
+    "email": "kabir.williams2021@gmail.com",
+    "skills": [
+      "Docker",
+      "Vue.js",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Chaitanya Iyer",
+    "company": "Adobe",
+    "designation": "Software Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2016,
+    "email": "chaitanya.iyer2016@gmail.com",
+    "skills": [
+      "Git",
+      "Machine Learning",
+      "Flask",
+      "NoSQL",
+      "Data Structures"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Sarah Garcia",
+    "company": "L&T",
+    "designation": "Data Engineer",
+    "department": "Information Technology",
+    "batch": 2021,
+    "email": "sarah.garcia2021@gmail.com",
+    "skills": [
+      "JavaScript",
+      "Algorithms",
+      "Java",
+      "TypeScript"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "siddharth.roy118267@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Sunita Miller",
+    "company": "Microsoft",
+    "designation": "Business Analyst",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2016,
+    "email": "sunita.miller2016@gmail.com",
+    "skills": [
+      "C++",
+      "React",
+      "HTML/CSS",
+      "Node.js",
+      "Algorithms"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 52,
+    "name": "Karan Joshi",
+    "company": "Wipro",
+    "designation": "Data Engineer",
+    "department": "Mechanical Engineering",
+    "batch": 2010,
+    "email": "karan.joshi2010@gmail.com",
+    "skills": [
+      "HTML/CSS",
+      "Figma",
+      "Node.js",
+      "Git",
+      "React"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Deepak Iyer",
+    "company": "Goldman Sachs",
+    "designation": "Senior Software Engineer",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2016,
+    "email": "deepak.iyer2016@gmail.com",
+    "skills": [
+      "Machine Learning",
+      "UI/UX Design",
+      "Flask",
+      "Django",
+      "SQL"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Rahul Garcia",
+    "company": "Amazon",
+    "designation": "Hardware Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2015,
+    "email": "rahul.garcia2015@gmail.com",
+    "skills": [
+      "Git",
+      "HTML/CSS",
+      "TypeScript"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Rohan Rao",
+    "company": "Deloitte",
+    "designation": "Hardware Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2013,
+    "email": "rohan.rao2013@gmail.com",
+    "skills": [
+      "C++",
+      "Algorithms",
+      "JavaScript"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Yash Nair",
+    "company": "TCS",
+    "designation": "Senior Software Engineer",
+    "department": "Information Technology",
+    "batch": 2020,
+    "email": "yash.nair2020@gmail.com",
+    "skills": [
+      "UI/UX Design",
+      "Python",
+      "Machine Learning",
+      "Algorithms",
+      "NoSQL"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Vijay Davis",
+    "company": "Apple",
+    "designation": "Hardware Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2020,
+    "email": "vijay.davis2020@gmail.com",
+    "skills": [
+      "UI/UX Design",
+      "SQL",
+      "Java",
+      "Algorithms"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Siddharth Pal",
+    "company": "Salesforce",
+    "designation": "System Analyst",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2013,
+    "email": "siddharth.pal2013@gmail.com",
+    "skills": [
+      "TypeScript",
+      "Kubernetes",
+      "Docker",
+      "Vue.js"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "yash.wilson142667@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Tarun Choudhury",
+    "company": "Qualcomm",
+    "designation": "Full Stack Developer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2018,
+    "email": "tarun.choudhury2018@gmail.com",
+    "skills": [
+      "Algorithms",
+      "Figma",
+      "TypeScript",
+      "Node.js",
+      "NoSQL"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "akash.banerjee183326@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Aisha Rao",
+    "company": "L&T",
+    "designation": "Business Analyst",
+    "department": "Mechanical Engineering",
+    "batch": 2021,
+    "email": "aisha.rao2021@gmail.com",
+    "skills": [
+      "Spring Boot",
+      "Java",
+      "SQL",
+      "JavaScript"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Rachel Chatterjee",
+    "company": "TCS",
+    "designation": "UI/UX Designer",
+    "department": "Civil Engineering",
+    "batch": 2010,
+    "email": "rachel.chatterjee2010@gmail.com",
+    "skills": [
+      "React",
+      "Figma",
+      "TypeScript",
+      "Python",
+      "C++"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Pranav Chatterjee",
+    "company": "Cisco",
+    "designation": "Product Manager",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2010,
+    "email": "pranav.chatterjee2010@gmail.com",
+    "skills": [
+      "UI/UX Design",
+      "Figma",
+      "C++"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Shreya Verma",
+    "company": "Salesforce",
+    "designation": "Director of Engineering",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2016,
+    "email": "shreya.verma2016@gmail.com",
+    "skills": [
+      "Node.js",
+      "JavaScript",
+      "Figma",
+      "Flask"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 64,
+    "name": "Arjun Mehta",
+    "company": "Deloitte",
+    "designation": "Data Scientist",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2015,
+    "email": "arjun.mehta2015@gmail.com",
+    "skills": [
+      "Vue.js",
+      "UI/UX Design",
+      "Data Structures"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Gaurav Ghosh",
+    "company": "Tesla",
+    "designation": "Technical Lead",
+    "department": "Information Technology",
+    "batch": 2015,
+    "email": "gaurav.ghosh2015@gmail.com",
+    "skills": [
+      "Algorithms",
+      "JavaScript",
+      "Vue.js"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "james.mukherjee129698@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "james.jones136120@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Jessica Nair",
+    "company": "Intel",
+    "designation": "Full Stack Developer",
+    "department": "Civil Engineering",
+    "batch": 2014,
+    "email": "jessica.nair2014@gmail.com",
+    "skills": [
+      "Django",
+      "C++",
+      "Kubernetes"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 67,
+    "name": "Amit Verma",
+    "company": "Apple",
+    "designation": "Product Manager",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2015,
+    "email": "amit.verma2015@gmail.com",
+    "skills": [
+      "Data Structures",
+      "Spring Boot",
+      "React"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Sophia Pandey",
+    "company": "Oracle",
+    "designation": "Hardware Engineer",
+    "department": "Computer Science and Engineering",
+    "batch": 2011,
+    "email": "sophia.pandey2011@gmail.com",
+    "skills": [
+      "Kubernetes",
+      "Git",
+      "Spring Boot",
+      "Vue.js",
+      "Python"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.ghosh146558@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Dev Deshmukh",
+    "company": "Microsoft",
+    "designation": "UI/UX Designer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2020,
+    "email": "dev.deshmukh2020@gmail.com",
+    "skills": [
+      "C++",
+      "UI/UX Design",
+      "Node.js"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.rao232622@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Sunita Davis",
+    "company": "Accenture",
+    "designation": "QA Automation Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2022,
+    "email": "sunita.davis2022@gmail.com",
+    "skills": [
+      "SQL",
+      "Angular",
+      "Django",
+      "Machine Learning",
+      "Docker"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Amit Reddy",
+    "company": "Capgemini",
+    "designation": "Director of Engineering",
+    "department": "Computer Science and Engineering",
+    "batch": 2014,
+    "email": "amit.reddy2014@gmail.com",
+    "skills": [
+      "Machine Learning",
+      "Spring Boot",
+      "Vue.js",
+      "Node.js"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 72,
+    "name": "Pranav Joshi",
+    "company": "Infosys",
+    "designation": "Cloud Architect",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2012,
+    "email": "pranav.joshi2012@gmail.com",
+    "skills": [
+      "Figma",
+      "Django",
+      "Angular",
+      "TypeScript"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Varun Bose",
+    "company": "Accenture",
+    "designation": "System Analyst",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2021,
+    "email": "varun.bose2021@gmail.com",
+    "skills": [
+      "Vue.js",
+      "NoSQL",
+      "Java",
+      "SQL",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Ananya Smith",
+    "company": "Netflix",
+    "designation": "Data Scientist",
+    "department": "Computer Science and Engineering",
+    "batch": 2022,
+    "email": "ananya.smith2022@gmail.com",
+    "skills": [
+      "C++",
+      "SQL",
+      "AWS"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Varun Johnson",
+    "company": "Apple",
+    "designation": "Software Engineer",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2022,
+    "email": "varun.johnson2022@gmail.com",
+    "skills": [
+      "SQL",
+      "NoSQL",
+      "Node.js",
+      "Docker"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Harsh Choudhury",
+    "company": "Netflix",
+    "designation": "Network Engineer",
+    "department": "Mechanical Engineering",
+    "batch": 2021,
+    "email": "harsh.choudhury2021@gmail.com",
+    "skills": [
+      "AWS",
+      "Angular",
+      "Data Structures"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "John Reddy",
+    "company": "Accenture",
+    "designation": "Project Manager",
+    "department": "Computer Science and Engineering",
+    "batch": 2019,
+    "email": "john.reddy2019@gmail.com",
+    "skills": [
+      "Kubernetes",
+      "UI/UX Design",
+      "Node.js",
+      "Figma"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "deepak.bose109979@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rohan.pillai211793@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Shreya Rodriguez",
+    "company": "Salesforce",
+    "designation": "Hardware Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2013,
+    "email": "shreya.rodriguez2013@gmail.com",
+    "skills": [
+      "Node.js",
+      "Vue.js",
+      "Spring Boot",
+      "NoSQL"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Tarun Iyer",
+    "company": "JP Morgan",
+    "designation": "Software Engineer",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2015,
+    "email": "tarun.iyer2015@gmail.com",
+    "skills": [
+      "Docker",
+      "Figma",
+      "Angular",
+      "Java"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Vikram Ghosh",
+    "company": "Capgemini",
+    "designation": "Software Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2018,
+    "email": "vikram.ghosh2018@gmail.com",
+    "skills": [
+      "UI/UX Design",
+      "HTML/CSS",
+      "SQL",
+      "Node.js"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "yash.davis208571@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "amit.sen245590@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Vikram Mishra",
+    "company": "Tesla",
+    "designation": "Hardware Engineer",
+    "department": "Information Technology",
+    "batch": 2017,
+    "email": "vikram.mishra2017@gmail.com",
+    "skills": [
+      "Django",
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Varun Gupta",
+    "company": "Meta",
+    "designation": "QA Automation Engineer",
+    "department": "Mechanical Engineering",
+    "batch": 2022,
+    "email": "varun.gupta2022@gmail.com",
+    "skills": [
+      "C++",
+      "Algorithms",
+      "AWS",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "jessica.brown199756@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Rahul Kumar",
+    "company": "Intel",
+    "designation": "Network Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2011,
+    "email": "rahul.kumar2011@gmail.com",
+    "skills": [
+      "Git",
+      "JavaScript",
+      "SQL"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "admin@college.edu",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.das118763@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Dev Choudhury",
+    "company": "Nvidia",
+    "designation": "System Analyst",
+    "department": "Artificial Intelligence and Data Science",
+    "batch": 2013,
+    "email": "dev.choudhury2013@gmail.com",
+    "skills": [
+      "Git",
+      "TypeScript",
+      "Python",
+      "HTML/CSS"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Sneha Pillai",
+    "company": "Goldman Sachs",
+    "designation": "Consultant",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2019,
+    "email": "sneha.pillai2019@gmail.com",
+    "skills": [
+      "Java",
+      "Git",
+      "Flask",
+      "Node.js"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "john.smith108770@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "john.nair222211@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Dev Mehta",
+    "company": "Wipro",
+    "designation": "DevOps Engineer",
+    "department": "Civil Engineering",
+    "batch": 2010,
+    "email": "dev.mehta2010@gmail.com",
+    "skills": [
+      "Kubernetes",
+      "SQL",
+      "UI/UX Design"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "John Miller",
+    "company": "Accenture",
+    "designation": "Technical Lead",
+    "department": "Civil Engineering",
+    "batch": 2011,
+    "email": "john.miller2011@gmail.com",
+    "skills": [
+      "Machine Learning",
+      "NoSQL",
+      "HTML/CSS"
+    ],
+    "availability": [
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Pranav Jones",
+    "company": "IBM",
+    "designation": "System Analyst",
+    "department": "Civil Engineering",
+    "batch": 2019,
+    "email": "pranav.jones2019@gmail.com",
+    "skills": [
+      "Node.js",
+      "Machine Learning",
+      "Django",
+      "Java",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rahul.das106414@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "pooja.gupta232705@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Ananya Bose",
+    "company": "Google",
+    "designation": "Data Scientist",
+    "department": "Information Technology",
+    "batch": 2021,
+    "email": "ananya.bose2021@gmail.com",
+    "skills": [
+      "C++",
+      "HTML/CSS",
+      "NoSQL",
+      "Spring Boot"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Kavita Garcia",
+    "company": "Microsoft",
+    "designation": "UI/UX Designer",
+    "department": "Mechanical Engineering",
+    "batch": 2019,
+    "email": "kavita.garcia2019@gmail.com",
+    "skills": [
+      "HTML/CSS",
+      "Data Structures",
+      "Django"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Friday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "admin@college.edu",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Amit Pandey",
+    "company": "Google",
+    "designation": "Data Engineer",
+    "department": "Information Technology",
+    "batch": 2010,
+    "email": "amit.pandey2010@gmail.com",
+    "skills": [
+      "Algorithms",
+      "Java",
+      "Figma",
+      "Node.js"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.pillai201258@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sneha.dutta198646@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.johnson244445@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Kabir Mehta",
+    "company": "L&T",
+    "designation": "Network Engineer",
+    "department": "Electrical and Electronics Engineering",
+    "batch": 2020,
+    "email": "kabir.mehta2020@gmail.com",
+    "skills": [
+      "Docker",
+      "AWS",
+      "React",
+      "Flask",
+      "Machine Learning"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Karan Iyer",
+    "company": "Amazon",
+    "designation": "Software Engineer",
+    "department": "Mechanical Engineering",
+    "batch": 2018,
+    "email": "karan.iyer2018@gmail.com",
+    "skills": [
+      "Angular",
+      "Algorithms",
+      "AWS",
+      "JavaScript"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Wednesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "akash.reddy227095@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.mukherjee166066@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kabir.williams245137@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Kriti Dutta",
+    "company": "Amazon",
+    "designation": "Technical Lead",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2011,
+    "email": "kriti.dutta2011@gmail.com",
+    "skills": [
+      "React",
+      "Vue.js",
+      "Flask",
+      "NoSQL"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "madhav.williams257274@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "isha.brown164327@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "kavita.gupta141948@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "meera.pillai237621@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Isha Verma",
+    "company": "IBM",
+    "designation": "Business Analyst",
+    "department": "Information Technology",
+    "batch": 2011,
+    "email": "isha.verma2011@gmail.com",
+    "skills": [
+      "Figma",
+      "Data Structures",
+      "Git",
+      "TypeScript",
+      "Flask"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Saturday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "zara.ghosh204603@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "sarah.miller166909@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "david.saha172085@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "David Garcia",
+    "company": "Oracle",
+    "designation": "QA Automation Engineer",
+    "department": "Civil Engineering",
+    "batch": 2016,
+    "email": "david.garcia2016@gmail.com",
+    "skills": [
+      "UI/UX Design",
+      "Angular",
+      "Machine Learning",
+      "Python"
+    ],
+    "availability": [
+      "Thursday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "aisha.deshmukh217561@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "gaurav.iyer225220@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "aarav.chatterjee141195@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "lolsarvesh2006@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "rajesh.brown245013@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Sneha Miller",
+    "company": "Capgemini",
+    "designation": "Business Analyst",
+    "department": "Civil Engineering",
+    "batch": 2014,
+    "email": "sneha.miller2014@gmail.com",
+    "skills": [
+      "Node.js",
+      "Flask",
+      "React"
+    ],
+    "availability": [
+      "Friday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "rahul.brown197196@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "chaitanya.adhikary209204@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "daniel.saha113129@gmail.com",
+        "status": "Pending",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "harsh.singh191559@gmail.com",
+        "status": "Approved",
+        "message": "Looking for industry guidance and career progression tips."
+      },
+      {
+        "email": "zara.das157021@gmail.com",
+        "status": "Declined",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Rachel Pillai",
+    "company": "Adobe",
+    "designation": "QA Automation Engineer",
+    "department": "Electronics and Communication Engineering",
+    "batch": 2017,
+    "email": "rachel.pillai2017@gmail.com",
+    "skills": [
+      "Angular",
+      "HTML/CSS",
+      "TypeScript"
+    ],
+    "availability": [
+      "Saturday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  },
+  {
+    "id": 99,
+    "name": "Pooja Deshmukh",
+    "company": "Cognizant",
+    "designation": "Data Scientist",
+    "department": "Mechanical Engineering",
+    "batch": 2015,
+    "email": "pooja.deshmukh2015@gmail.com",
+    "skills": [
+      "SQL",
+      "Docker",
+      "Kubernetes",
+      "Java",
+      "NoSQL"
+    ],
+    "availability": [
+      "Monday 5:00 PM - 7:00 PM",
+      "Tuesday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": [
+      {
+        "email": "daniel.banerjee248024@gmail.com",
+        "status": "Completed",
+        "message": "Looking for industry guidance and career progression tips."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Ananya Das",
+    "company": "Cisco",
+    "designation": "Project Manager",
+    "department": "Computer Science and Engineering",
+    "batch": 2010,
+    "email": "ananya.das2010@gmail.com",
+    "skills": [
+      "Data Structures",
+      "Spring Boot",
+      "Vue.js",
+      "Docker",
+      "NoSQL"
+    ],
+    "availability": [
+      "Wednesday 5:00 PM - 7:00 PM",
+      "Monday 5:00 PM - 7:00 PM",
+      "Thursday 5:00 PM - 7:00 PM"
+    ],
+    "requestedUsers": []
+  }
+]

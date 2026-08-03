@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytical Reports - AlumniHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .reports-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .report-card-full {
+            grid-column: 1 / -1;
+            height: 450px;
+        }
+
+        .report-chart-box {
+            padding: 24px;
+            height: 380px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 992px) {
+            .reports-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-card">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">H</div>
+                <div class="sidebar-logo-text">AlumniHub</div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="sidebar-item">
+                    <a href="dashboard.html"><i class="fas fa-chart-pie"></i> Overview</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="alumni.html"><i class="fas fa-users"></i> Alumni Directory</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="events.html"><i class="fas fa-calendar-alt"></i> Events & Meets</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="jobs.html"><i class="fas fa-briefcase"></i> Job Board</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="mentorship.html"><i class="fas fa-hands-helping"></i> Mentorship Hub</a>
+                </li>
+                <li class="sidebar-item active">
+                    <a href="reports.html"><i class="fas fa-file-invoice-dollar"></i> Analytical Reports</a>
+                </li>
+            </ul>
+
+            <div class="sidebar-user">
+                <img src="" alt="Avatar" class="sidebar-user-avatar">
+                <div class="sidebar-user-info">
+                    <span class="sidebar-user-name">Loading...</span>
+                    <span class="sidebar-user-role">Role</span>
+                </div>
+                <button class="sidebar-user-logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Navbar -->
+            <header class="navbar">
+                <div class="flex items-center">
+                    <button class="menu-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+                    <h1 class="page-title">Analytical Reports</h1>
+                </div>
+                
+                <div class="navbar-actions">
+                    <button class="nav-btn" id="theme-toggle-btn">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Filters Pane for reports -->
+            <section class="glass-card mb-4" style="padding: 20px;">
+                <h3 style="font-size: 0.95rem; margin-bottom: 12px; color: var(--text-secondary);">Interactive Filter Analytics Scope</h3>
+                <div class="filters-bar" style="margin-bottom: 0;">
+                    <div class="filter-item">
+                        <select id="report-filter-dept" class="form-control">
+                            <option value="">All Departments</option>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+
+                    <div class="filter-item">
+                        <select id="report-filter-batch" class="form-control">
+                            <option value="">All Graduation Years</option>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+
+                    <div class="filter-item">
+                        <select id="report-filter-location" class="form-control">
+                            <option value="">All Locations</option>
+                            <!-- Dynamically loaded -->
+                        </select>
+                    </div>
+
+                    <button class="btn btn-secondary" id="report-btn-reset" title="Reset Filters" style="padding: 10px 14px;">
+                        <i class="fas fa-undo"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Charts Panels Grid -->
+            <section class="reports-grid">
+                <!-- 1. Salary CTC Curve Trend -->
+                <div class="glass-card report-chart-box report-card-full">
+                    <h3 class="chart-title"><i class="fas fa-chart-line"></i> CTC Salary Distribution Curve (LPA)</h3>
+                    <div class="chart-container">
+                        <canvas id="report-chart-salary"></canvas>
+                    </div>
+                </div>
+
+                <!-- 2. Skills Radar Distribution -->
+                <div class="glass-card report-chart-box">
+                    <h3 class="chart-title"><i class="fas fa-star"></i> Popular Industry Technologies Stack</h3>
+                    <div class="chart-container">
+                        <canvas id="report-chart-skills"></canvas>
+                    </div>
+                </div>
+
+                <!-- 3. Placement Status (Placed vs Higher Studies vs Founder) -->
+                <div class="glass-card report-chart-box">
+                    <h3 class="chart-title"><i class="fas fa-user-tag"></i> Placement Status Split</h3>
+                    <div class="chart-container">
+                        <canvas id="report-chart-status"></canvas>
+                    </div>
+                </div>
+
+                <!-- 4. Top Recruiters (Bar Chart) -->
+                <div class="glass-card report-chart-box">
+                    <h3 class="chart-title"><i class="fas fa-building"></i> Top Hiring Companies</h3>
+                    <div class="chart-container">
+                        <canvas id="report-chart-companies"></canvas>
+                    </div>
+                </div>
+
+                <!-- 5. Gender Diversity Split -->
+                <div class="glass-card report-chart-box">
+                    <h3 class="chart-title"><i class="fas fa-venus-mars"></i> Gender Diversity Ratio</h3>
+                    <div class="chart-container">
+                        <canvas id="report-chart-gender"></canvas>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/reports.js"></script>
+</body>
+</html>

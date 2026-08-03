@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Directory - AlumniHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- SheetJS (XLSX) CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-card">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">H</div>
+                <div class="sidebar-logo-text">AlumniHub</div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="sidebar-item">
+                    <a href="dashboard.html"><i class="fas fa-chart-pie"></i> Overview</a>
+                </li>
+                <li class="sidebar-item active">
+                    <a href="alumni.html"><i class="fas fa-users"></i> Alumni Directory</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="events.html"><i class="fas fa-calendar-alt"></i> Events & Meets</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="jobs.html"><i class="fas fa-briefcase"></i> Job Board</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="mentorship.html"><i class="fas fa-hands-helping"></i> Mentorship Hub</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="reports.html"><i class="fas fa-file-invoice-dollar"></i> Analytical Reports</a>
+                </li>
+            </ul>
+
+            <div class="sidebar-user">
+                <img src="" alt="Avatar" class="sidebar-user-avatar">
+                <div class="sidebar-user-info">
+                    <span class="sidebar-user-name">Loading...</span>
+                    <span class="sidebar-user-role">Role</span>
+                </div>
+                <button class="sidebar-user-logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Navbar -->
+            <header class="navbar">
+                <div class="flex items-center">
+                    <button class="menu-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+                    <h1 class="page-title">Alumni Directory</h1>
+                </div>
+                
+                <div class="navbar-actions">
+                    <button class="nav-btn" id="theme-toggle-btn" title="Toggle Theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button class="nav-btn" id="notifications-btn" title="Notifications">
+                        <i class="fas fa-bell"></i>
+                        <span class="nav-badge">3</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Table Card -->
+            <section class="glass-card data-card">
+                <div class="data-header">
+                    <!-- Search Control -->
+                    <div class="nav-search" style="width: 320px;">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="search-input" class="form-control" placeholder="Search by name, reg no, company...">
+                    </div>
+
+                    <!-- Action buttons -->
+                    <div class="data-actions">
+                        <button class="btn btn-primary" id="btn-add-alumni">
+                            <i class="fas fa-user-plus"></i> Add Alumni
+                        </button>
+                        <button class="btn btn-secondary" id="btn-export-excel">
+                            <i class="fas fa-file-excel"></i> Export Excel
+                        </button>
+                        <label for="input-import-json" class="btn btn-secondary" style="cursor: pointer;">
+                            <i class="fas fa-file-import"></i> Import JSON
+                        </label>
+                        <input type="file" id="input-import-json" style="display: none;" accept=".json">
+                    </div>
+                </div>
+
+                <!-- Combined Filters Row -->
+                <div class="filters-bar">
+                    <!-- Department -->
+                    <div class="filter-item">
+                        <select id="filter-dept" class="form-control">
+                            <option value="">All Departments</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Batch -->
+                    <div class="filter-item">
+                        <select id="filter-batch" class="form-control">
+                            <option value="">All Batches</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Company -->
+                    <div class="filter-item">
+                        <select id="filter-company" class="form-control">
+                            <option value="">All Companies</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Salary Bracket -->
+                    <div class="filter-item">
+                        <select id="filter-salary" class="form-control">
+                            <option value="">All Salaries</option>
+                            <option value="under-5">Under ₹5 LPA</option>
+                            <option value="5-12">₹5 - ₹12 LPA</option>
+                            <option value="12-25">₹12 - ₹25 LPA</option>
+                            <option value="over-25">Above ₹25 LPA</option>
+                        </select>
+                    </div>
+
+                    <!-- Location/City -->
+                    <div class="filter-item">
+                        <select id="filter-location" class="form-control">
+                            <option value="">All Cities</option>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Reset Filters Button -->
+                    <button class="btn btn-secondary" id="btn-reset-filters" title="Reset Filters" style="padding: 10px 14px;">
+                        <i class="fas fa-undo"></i>
+                    </button>
+                </div>
+
+                <!-- Table Content -->
+                <div class="table-responsive">
+                    <table class="custom-table" id="alumni-table">
+                        <thead>
+                            <tr>
+                                <th data-sort="name">Name</th>
+                                <th data-sort="registerNumber">Reg No</th>
+                                <th data-sort="department">Dept</th>
+                                <th data-sort="batch">Batch</th>
+                                <th data-sort="company">Company</th>
+                                <th data-sort="salary">Salary</th>
+                                <th data-sort="experience">Exp</th>
+                                <th data-sort="city">Location</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="alumni-tbody">
+                            <!-- Populated dynamically by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Table Pagination -->
+                <div class="pagination-container">
+                    <div class="pagination-info">
+                        Showing <span id="pag-start">0</span> to <span id="pag-end">0</span> of <span id="pag-total">0</span> entries
+                    </div>
+                    
+                    <div class="pagination-controls">
+                        <button class="page-btn" id="pag-prev"><i class="fas fa-chevron-left"></i> Previous</button>
+                        <div id="pag-pages" style="display: flex; gap: 4px;">
+                            <!-- Page numbers -->
+                        </div>
+                        <button class="page-btn" id="pag-next">Next <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Add/Edit Alumni Modal Form -->
+    <div class="modal" id="alumni-modal">
+        <div class="modal-content glass-card">
+            <div class="modal-header">
+                <h3 id="modal-title">Add New Alumnus</h3>
+                <button class="modal-close" id="modal-close-btn">&times;</button>
+            </div>
+            
+            <form id="alumni-form">
+                <input type="hidden" id="alumni-id">
+                
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-name">Full Name *</label>
+                        <input type="text" id="form-name" class="form-control" required placeholder="Aarav Sharma">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-reg">Registration Number *</label>
+                        <input type="text" id="form-reg" class="form-control" required placeholder="18104592">
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-gender">Gender</label>
+                        <select id="form-gender" class="form-control">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-dept">Department *</label>
+                        <select id="form-dept" class="form-control" required>
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-batch">Graduation Batch *</label>
+                        <input type="number" id="form-batch" class="form-control" required min="2000" max="2027" placeholder="2020">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-experience">Experience (Years)</label>
+                        <input type="number" id="form-experience" class="form-control" min="0" max="40" placeholder="3">
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-email">Email Address *</label>
+                        <input type="email" id="form-email" class="form-control" required placeholder="aarav@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-phone">Phone Number</label>
+                        <input type="text" id="form-phone" class="form-control" placeholder="+91 98765 43210">
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-company">Company</label>
+                        <input type="text" id="form-company" class="form-control" placeholder="Google / Higher Education / Self-Employed">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-designation">Designation</label>
+                        <input type="text" id="form-designation" class="form-control" placeholder="Software Engineer / Student / CEO">
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-salary">Salary (INR per annum)</label>
+                        <input type="number" id="form-salary" class="form-control" placeholder="1200000" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-city">City</label>
+                        <input type="text" id="form-city" class="form-control" placeholder="Bangalore">
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="form-group">
+                        <label for="form-state">State</label>
+                        <input type="text" id="form-state" class="form-control" placeholder="Karnataka">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-country">Country</label>
+                        <input type="text" id="form-country" class="form-control" placeholder="India">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="form-linkedin">LinkedIn URL</label>
+                    <input type="url" id="form-linkedin" class="form-control" placeholder="https://linkedin.com/in/username">
+                </div>
+
+                <div class="form-group">
+                    <label for="form-skills">Skills (Comma separated)</label>
+                    <input type="text" id="form-skills" class="form-control" placeholder="Java, Python, System Design">
+                </div>
+
+                <div class="form-group">
+                    <label for="form-photo-upload">Profile Photo (Preview only)</label>
+                    <div class="flex items-center gap-4">
+                        <input type="file" id="form-photo-upload" class="form-control" accept="image/*" style="flex-grow: 1;">
+                        <img id="form-photo-preview" src="https://api.dicebear.com/7.x/avataaars/svg?seed=preview" alt="Preview" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 1px solid var(--border-color);">
+                    </div>
+                </div>
+
+                <div class="grid grid-2 mt-4">
+                    <div class="form-group">
+                        <label for="form-studies">Higher Studies (e.g. MS at Stanford)</label>
+                        <input type="text" id="form-studies" class="form-control" placeholder="MS in CS at Stanford University">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-entrepreneur">Entrepreneur Status (Role & Details)</label>
+                        <input type="text" id="form-entrepreneur" class="form-control" placeholder="Founder & CEO of Startup">
+                    </div>
+                </div>
+
+                <div class="flex justify-end gap-2 mt-4" style="border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <button type="button" class="btn btn-secondary" id="form-cancel-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="form-submit-btn">Save Alumni</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/alumni.js"></script>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlumniHub - Centralized Alumni Data Management and Engagement</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+        .landing-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+        
+        .logo-landing {
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            padding: 100px 8% 50px 8%;
+            gap: 50px;
+        }
+
+        .hero-content {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            line-height: 1.15;
+            font-weight: 800;
+        }
+
+        .hero-title span {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .hero-stat-item {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .hero-stat-val {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+
+        .hero-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .hero-visual {
+            flex: 0.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .interactive-preview {
+            width: 100%;
+            max-width: 420px;
+            padding: 30px;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .preview-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .preview-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border: 2px solid white;
+        }
+
+        .preview-title {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .preview-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .preview-sub {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .preview-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .preview-tag {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        .theme-toggle-container {
+            position: absolute;
+            top: 24px;
+            right: 8%;
+            z-index: 101;
+            display: flex;
+            gap: 10px;
+        }
+
+        @media (max-width: 1024px) {
+            .hero-section {
+                flex-direction: column-reverse;
+                text-align: center;
+                padding-top: 150px;
+            }
+            .hero-content {
+                align-items: center;
+            }
+            .hero-stats {
+                justify-content: center;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-glows">
+        <div class="glow-circle glow-1"></div>
+        <div class="glow-circle glow-2"></div>
+        <div class="glow-circle glow-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="landing-nav">
+        <a href="index.html" class="logo-landing">AlumniHub</a>
+        <ul class="nav-links">
+            <li><a href="login.html">Sign In</a></li>
+            <li><a href="signup.html" class="btn btn-primary">Join Platform</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Connecting Alumni,<br>Empowering <span>Futures</span></h1>
+            <p class="hero-desc">
+                Welcome to the Digital Platform for Centralized Alumni Data Management and Engagement. 
+                Keep track of academic pathways, career progression, mentorship networks, and job placements 
+                for current students and alumni members alike.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="login.html" class="btn btn-primary">
+                    <i class="fas fa-sign-in-alt"></i> Access Dashboard
+                </a>
+                <a href="signup.html" class="btn btn-secondary">
+                    <i class="fas fa-user-plus"></i> Register as Alumni
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="hero-stat-item">
+                    <span class="hero-stat-val" id="stat-alumni">500+</span>
+                    <span class="hero-stat-label">Active Alumni</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="hero-stat-val" id="stat-jobs">50+</span>
+                    <span class="hero-stat-label">Live Openings</span>
+                </div>
+                <div class="hero-stat-item">
+                    <span class="hero-stat-val" id="stat-events">50+</span>
+                    <span class="hero-stat-label">Yearly Events</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="interactive-preview glass-card">
+                <div class="preview-header">
+                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Aarav" alt="Alumni Avatar" class="preview-avatar">
+                    <div class="preview-title">
+                        <span class="preview-name">Aarav Sharma</span>
+                        <span class="preview-sub">Senior Software Engineer at Google</span>
+                    </div>
+                </div>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4;">
+                    "AlumniHub helped me stay connected with my alma mater and match with multiple college students for mock technical interview prep."
+                </p>
+                <div class="preview-tags">
+                    <span class="preview-tag">Batch of 2018</span>
+                    <span class="preview-tag">Computer Science</span>
+                    <span class="preview-tag">System Design</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Theme Switcher -->
+    <div class="theme-toggle-container">
+        <button class="nav-btn" id="theme-toggle-btn" aria-label="Toggle theme">
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script>
+        // Set dynamic stat totals if DB is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            const alumni = db.getAlumni();
+            const jobs = db.getJobs();
+            const events = db.getEvents();
+            
+            if (alumni.length) document.getElementById('stat-alumni').textContent = `${alumni.length}+`;
+            if (jobs.length) document.getElementById('stat-jobs').textContent = `${jobs.length}+`;
+            if (events.length) document.getElementById('stat-events').textContent = `${events.length}+`;
+        });
+    </script>
+</body>
+</html>

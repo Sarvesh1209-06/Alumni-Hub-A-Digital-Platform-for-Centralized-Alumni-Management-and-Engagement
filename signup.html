@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - AlumniHub | Alumni Management System</title>
+    <meta name="description" content="Create your AlumniHub account to connect with alumni, explore jobs, and stay engaged.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="auth-container signup-container">
+        <!-- Background Glows -->
+        <div class="background-glows">
+            <div class="glow-circle glow-1"></div>
+            <div class="glow-circle glow-2"></div>
+            <div class="glow-circle glow-3"></div>
+        </div>
+
+        <a href="index.html" class="back-to-home">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+
+        <!-- Multi-step Registration Card -->
+        <div class="auth-card signup-card glass-card">
+            <div class="auth-header">
+                <div class="auth-logo">AlumniHub</div>
+                <div class="auth-subtitle">Alumni Registration Portal</div>
+            </div>
+
+            <!-- Step Progress Indicator -->
+            <div class="step-progress">
+                <div class="step-track">
+                    <div class="step-fill" id="step-fill"></div>
+                </div>
+                <div class="step-dots">
+                    <div class="step-dot active" data-step="1">
+                        <span class="step-num">1</span>
+                        <span class="step-label">Account</span>
+                    </div>
+                    <div class="step-dot" data-step="2">
+                        <span class="step-num">2</span>
+                        <span class="step-label">Personal</span>
+                    </div>
+                    <div class="step-dot" data-step="3">
+                        <span class="step-num">3</span>
+                        <span class="step-label">Academic</span>
+                    </div>
+                    <div class="step-dot" data-step="4">
+                        <span class="step-num">4</span>
+                        <span class="step-label">Professional</span>
+                    </div>
+                    <div class="step-dot" data-step="5">
+                        <span class="step-num">5</span>
+                        <span class="step-label">Skills</span>
+                    </div>
+                </div>
+            </div>
+
+            <form id="signup-form" enctype="multipart/form-data" novalidate>
+
+                <!-- ══════════════ STEP 1: Account Details ══════════════ -->
+                <div class="form-step active" id="step-1">
+                    <h3 class="step-title"><i class="fas fa-user-circle"></i> Account Details</h3>
+
+                    <!-- Role selection: Student or Alumni -->
+                    <div class="form-group">
+                        <label>Register As <span class="required">*</span></label>
+                        <div class="role-options">
+                            <label><input type="radio" name="role" value="Student" checked> Student</label>
+                            <label><input type="radio" name="role" value="Alumni"> Alumni</label>
+                        </div>
+                    </div>
+
+                    <!-- Hidden field to store created user id when registering Alumni -->
+                    <input type="hidden" id="registeredUserId" name="registeredUserId" value="">
+
+                    <div class="form-group">
+                        <label for="name">Full Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Sarvesh Kumar" required autocomplete="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="you@gmail.com" required autocomplete="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password <span class="required">*</span></label>
+                            <div class="input-icon-wrap">
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Min. 6 characters" required autocomplete="new-password">
+                                <button type="button" class="toggle-pw" onclick="togglePassword('password')"><i class="fas fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password <span class="required">*</span></label>
+                            <div class="input-icon-wrap">
+                                <input type="password" id="confirm-password" name="confirmPassword" class="form-control" placeholder="Re-enter password" required autocomplete="new-password">
+                                <button type="button" class="toggle-pw" onclick="togglePassword('confirm-password')"><i class="fas fa-eye"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="photo">Profile Photo (Optional)</label>
+                        <div class="photo-upload-area" id="photo-drop-area">
+                            <img id="photo-preview" src="https://api.dicebear.com/7.x/avataaars/svg?seed=default" alt="Preview">
+                            <div class="photo-upload-label">
+                                <i class="fas fa-camera"></i>
+                                <span>Click or drag to upload photo</span>
+                            </div>
+                            <input type="file" id="photo" name="photo" accept="image/*" class="file-input-hidden">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ══════════════ STEP 2: Personal Information ══════════════ -->
+                <div class="form-step" id="step-2">
+                    <h3 class="step-title"><i class="fas fa-id-card"></i> Personal Information</h3>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="gender">Gender <span class="required">*</span></label>
+                            <select id="gender" name="gender" class="form-control" required>
+                                <option value="">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth (Optional)</label>
+                            <input type="date" id="dob" name="dob" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">Current City <span class="required">*</span></label>
+                            <input type="text" id="city" name="city" class="form-control" placeholder="e.g. Bangalore" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Current Country <span class="required">*</span></label>
+                            <input type="text" id="country" name="country" class="form-control" placeholder="e.g. India" required value="India">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bio">Short Bio</label>
+                        <textarea id="bio" name="bio" class="form-control" rows="3" placeholder="Tell us a little about yourself..."></textarea>
+                    </div>
+                </div>
+
+                <!-- ══════════════ STEP 3: Academic Details ══════════════ -->
+                <div class="form-step" id="step-3">
+                    <h3 class="step-title"><i class="fas fa-graduation-cap"></i> Academic Details</h3>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="department">Department <span class="required">*</span></label>
+                            <select id="department" name="department" class="form-control" required>
+                                <option value="">Select Department</option>
+                                <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                                <option value="Information Technology">Information Technology</option>
+                                <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+                                <option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+                                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                <option value="Civil Engineering">Civil Engineering</option>
+                                <option value="Artificial Intelligence and Data Science">Artificial Intelligence and Data Science</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="degree">Degree <span class="required">*</span></label>
+                            <select id="degree" name="degree" class="form-control" required>
+                                <option value="">Select Degree</option>
+                                <option value="B.E.">B.E.</option>
+                                <option value="B.Tech">B.Tech</option>
+                                <option value="M.E.">M.E.</option>
+                                <option value="M.Tech">M.Tech</option>
+                                <option value="MBA">MBA</option>
+                                <option value="MCA">MCA</option>
+                                <option value="Ph.D">Ph.D</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="specialization">Specialization (Optional)</label>
+                        <input type="text" id="specialization" name="specialization" class="form-control" placeholder="e.g. Machine Learning, VLSI Design">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="batch">Batch Year <span class="required">*</span></label>
+                            <input type="number" id="batch" name="batch" class="form-control" placeholder="e.g. 2022" min="1990" max="2030" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="yearOfGraduation">Year of Graduation <span class="required">*</span></label>
+                            <input type="number" id="yearOfGraduation" name="yearOfGraduation" class="form-control" placeholder="e.g. 2026" min="1990" max="2030" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cgpa">CGPA (Optional)</label>
+                            <input type="number" id="cgpa" name="cgpa" class="form-control" placeholder="e.g. 8.5" min="0" max="10" step="0.01">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ══════════════ STEP 4: Professional Details ══════════════ -->
+                <div class="form-step" id="step-4">
+                    <h3 class="step-title"><i class="fas fa-briefcase"></i> Professional Details</h3>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="employmentStatus">Employment Status <span class="required">*</span></label>
+                            <select id="employmentStatus" name="employmentStatus" class="form-control" required>
+                                <option value="">Select Status</option>
+                                <option value="Employed">Employed (Full-Time)</option>
+                                <option value="Self-Employed">Self-Employed / Entrepreneur</option>
+                                <option value="Freelancer">Freelancer</option>
+                                <option value="Higher Studies">Pursuing Higher Studies</option>
+                                <option value="Job Seeking">Job Seeking</option>
+                                <option value="Not Working">Not Currently Working</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="industry">Industry</label>
+                            <input type="text" id="industry" name="industry" class="form-control" placeholder="e.g. IT, Finance, Healthcare">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company" class="form-control" placeholder="e.g. Google, TCS, IIT Madras">
+                        </div>
+                        <div class="form-group">
+                            <label for="jobTitle">Job Title / Role</label>
+                            <input type="text" id="jobTitle" name="jobTitle" class="form-control" placeholder="e.g. Software Engineer">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="experience">Years of Experience</label>
+                            <input type="number" id="experience" name="experience" class="form-control" placeholder="e.g. 3" min="0" max="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="workLocation">Work Location</label>
+                            <input type="text" id="workLocation" name="workLocation" class="form-control" placeholder="e.g. Bangalore, Remote">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="linkedin">LinkedIn Profile (Optional)</label>
+                            <input type="url" id="linkedin" name="linkedin" class="form-control" placeholder="https://linkedin.com/in/yourname">
+                        </div>
+                        <div class="form-group">
+                            <label for="portfolio">Portfolio / GitHub (Optional)</label>
+                            <input type="url" id="portfolio" name="portfolio" class="form-control" placeholder="https://github.com/yourusername">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="resume">Resume Upload (Optional)</label>
+                        <div class="file-upload-area" id="resume-area">
+                            <i class="fas fa-file-pdf"></i>
+                            <span id="resume-label">Click to upload PDF / DOC resume</span>
+                            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" class="file-input-hidden">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ══════════════ STEP 5: Skills & Engagement ══════════════ -->
+                <div class="form-step" id="step-5">
+                    <h3 class="step-title"><i class="fas fa-star"></i> Skills, Engagement & Bio</h3>
+
+                    <div class="form-group">
+                        <label for="technicalSkills">Technical Skills <span class="required">*</span></label>
+                        <input type="text" id="technicalSkills" name="technicalSkills" class="form-control" placeholder="Python, JavaScript, React, SQL (comma separated)" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="softSkills">Soft Skills</label>
+                        <input type="text" id="softSkills" name="softSkills" class="form-control" placeholder="Leadership, Communication, Teamwork (comma separated)">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expertise">Areas of Expertise</label>
+                            <input type="text" id="expertise" name="expertise" class="form-control" placeholder="Web Dev, AI, Cloud (comma separated)">
+                        </div>
+                        <div class="form-group">
+                            <label for="certifications">Certifications (Optional)</label>
+                            <input type="text" id="certifications" name="certifications" class="form-control" placeholder="AWS Certified, Google Cloud...">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="achievements">Achievements</label>
+                        <textarea id="achievements" name="achievements" class="form-control" rows="2" placeholder="Awards, publications, notable projects..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="socialLinks">Social Media Links (Optional)</label>
+                        <input type="text" id="socialLinks" name="socialLinks" class="form-control" placeholder="Twitter, Instagram, etc.">
+                    </div>
+
+                    <!-- Alumni Engagement Checkboxes -->
+                    <div class="engagement-grid">
+                        <label class="engagement-label">Alumni Engagement Preferences</label>
+                        <div class="engagement-options">
+                            <label class="toggle-check">
+                                <input type="checkbox" name="interestedMentoring" id="interestedMentoring" value="true">
+                                <span class="toggle-box"></span>
+                                <span><i class="fas fa-chalkboard-teacher"></i> Interested in Mentoring</span>
+                            </label>
+                            <label class="toggle-check">
+                                <input type="checkbox" name="willingInternships" id="willingInternships" value="true">
+                                <span class="toggle-box"></span>
+                                <span><i class="fas fa-handshake"></i> Willing to Offer Internships</span>
+                            </label>
+                            <label class="toggle-check">
+                                <input type="checkbox" name="willingJobPostings" id="willingJobPostings" value="true">
+                                <span class="toggle-box"></span>
+                                <span><i class="fas fa-briefcase"></i> Willing to Post Job Openings</span>
+                            </label>
+                            <label class="toggle-check">
+                                <input type="checkbox" name="speakingEvents" id="speakingEvents" value="true">
+                                <span class="toggle-box"></span>
+                                <span><i class="fas fa-microphone"></i> Interested in Speaking at Events</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="form-nav">
+                    <button type="button" class="btn btn-secondary" id="btn-prev" onclick="prevStep()" style="display:none;">
+                        <i class="fas fa-arrow-left"></i> Previous
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btn-next" onclick="nextStep()">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button type="submit" class="btn btn-primary" id="btn-submit" style="display:none;">
+                        <i class="fas fa-user-plus"></i> Complete Registration
+                    </button>
+                </div>
+            </form>
+
+            <div class="auth-footer">
+                Already have an account? <a href="login.html">Login Here</a>
+            </div>
+        </div>
+
+        <!-- Toast container -->
+        <div id="toast-container"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

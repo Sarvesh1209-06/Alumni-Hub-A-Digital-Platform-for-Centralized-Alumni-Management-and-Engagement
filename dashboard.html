@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AlumniHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Floating background glows -->
+        <div class="background-glows" style="pointer-events: none;">
+            <div class="glow-circle glow-1" style="width: 300px; height: 300px; opacity: 0.15; top: 10%; left: 5%;"></div>
+            <div class="glow-circle glow-2" style="width: 400px; height: 400px; opacity: 0.15; bottom: 5%; right: 5%;"></div>
+        </div>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-card">
+            <div class="sidebar-logo">
+                <div class="sidebar-logo-icon">H</div>
+                <div class="sidebar-logo-text">AlumniHub</div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="sidebar-item active">
+                    <a href="dashboard.html"><i class="fas fa-chart-pie"></i> Overview</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="alumni.html"><i class="fas fa-users"></i> Alumni Directory</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="events.html"><i class="fas fa-calendar-alt"></i> Events & Meets</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="jobs.html"><i class="fas fa-briefcase"></i> Job Board</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="mentorship.html"><i class="fas fa-hands-helping"></i> Mentorship Hub</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="reports.html"><i class="fas fa-file-invoice-dollar"></i> Analytical Reports</a>
+                </li>
+            </ul>
+
+            <!-- Sidebar User profile footer -->
+            <div class="sidebar-user">
+                <img src="" alt="Avatar" class="sidebar-user-avatar">
+                <div class="sidebar-user-info">
+                    <span class="sidebar-user-name">Loading...</span>
+                    <span class="sidebar-user-role">Role</span>
+                </div>
+                <button class="sidebar-user-logout" title="Logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Wrapper -->
+        <main class="main-content">
+            <!-- Top Navigation / Navbar -->
+            <header class="navbar">
+                <div class="flex items-center">
+                    <button class="menu-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+                    <h1 class="page-title">Dashboard Overview</h1>
+                </div>
+                
+                <div class="navbar-actions">
+                    <button class="nav-btn" id="theme-toggle-btn" title="Toggle Theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button class="nav-btn" id="notifications-btn" title="Notifications">
+                        <i class="fas fa-bell"></i>
+                        <span class="nav-badge">3</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Metrics Counters Grid -->
+            <section class="grid metrics-grid">
+                <!-- Total Alumni -->
+                <div class="metric-card glass-card">
+                    <div class="metric-icon-box bg-indigo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="metric-details">
+                        <span class="metric-label">Total Alumni</span>
+                        <span class="metric-value" id="val-total">0</span>
+                    </div>
+                </div>
+
+                <!-- Placed Percentage -->
+                <div class="metric-card glass-card">
+                    <div class="metric-icon-box bg-emerald">
+                        <i class="fas fa-business-time"></i>
+                    </div>
+                    <div class="metric-details">
+                        <span class="metric-label">Placed Alumni</span>
+                        <span class="metric-value" id="val-placed">0%</span>
+                    </div>
+                </div>
+
+                <!-- Higher Studies -->
+                <div class="metric-card glass-card">
+                    <div class="metric-icon-box bg-blue">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="metric-details">
+                        <span class="metric-label">Higher Studies</span>
+                        <span class="metric-value" id="val-studies">0</span>
+                    </div>
+                </div>
+
+                <!-- Entrepreneurs -->
+                <div class="metric-card glass-card">
+                    <div class="metric-icon-box bg-amber">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="metric-details">
+                        <span class="metric-label">Entrepreneurs</span>
+                        <span class="metric-value" id="val-founders">0</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="grid charts-grid">
+                <!-- Department Chart -->
+                <div class="chart-card glass-card">
+                    <h3 class="chart-title">Department Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-dept"></canvas>
+                    </div>
+                </div>
+
+                <!-- Batch Trend Chart -->
+                <div class="chart-card glass-card">
+                    <h3 class="chart-title">Yearly Graduation Trend</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-batch"></canvas>
+                    </div>
+                </div>
+
+                <!-- Company Placements Chart -->
+                <div class="chart-card glass-card">
+                    <h3 class="chart-title">Top Recruiter Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-company"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom Content (Recent Updates and Fast Actions) -->
+            <div class="grid grid-2" style="margin-bottom: 24px;">
+                <!-- Recent Activities / Notifications -->
+                <div class="glass-card" style="padding: 24px;">
+                    <h3 style="margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">Recent Registrations</h3>
+                    <div class="table-responsive">
+                        <table class="custom-table" style="min-width: 400px;">
+                            <thead>
+                                <tr>
+                                    <th>Alumni</th>
+                                    <th>Department</th>
+                                    <th>Batch</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recent-registrations-tbody">
+                                <!-- Populated dynamically by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Management Shortcut Panel -->
+                <div class="glass-card" style="padding: 24px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <h3 style="margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">Quick Actions</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.5;">
+                            Perform core operations directly. All modifications immediately sync with simulated storage and update charts dynamically.
+                        </p>
+                    </div>
+                    <div class="flex" style="flex-wrap: wrap; gap: 12px; margin-top: auto;">
+                        <a href="alumni.html?action=add" class="btn btn-primary" style="flex-grow: 1;">
+                            <i class="fas fa-user-plus"></i> Add New Alumni
+                        </a>
+                        <a href="events.html?action=create" class="btn btn-secondary" style="flex-grow: 1;">
+                            <i class="fas fa-calendar-plus"></i> Schedule Event
+                        </a>
+                        <a href="jobs.html?action=post" class="btn btn-secondary" style="flex-grow: 1;">
+                            <i class="fas fa-briefcase"></i> Post Job Opening
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

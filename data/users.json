@@ -1,0 +1,478 @@
+[
+  {
+    "id": 1,
+    "name": "Administrator",
+    "email": "admin@college.edu",
+    "password": "$2a$10$VCFdPZm4ZW8ZIfUiuGrrKur7QxQN5kOrRtOgc7XbzgK9l6DwCUDxu",
+    "role": "admin",
+    "alumniId": null,
+    "photo": "https://api.dicebear.com/7.x/adventurer/svg?seed=admin"
+  },
+  {
+    "id": 2,
+    "name": "Sarvesh",
+    "email": "lolsarvesh2006@gmail.com",
+    "password": "qwertyuiopasdfghjkl",
+    "role": "admin",
+    "alumniId": null,
+    "photo": "https://api.dicebear.com/7.x/adventurer/svg?seed=Sarvesh"
+  },
+  {
+    "id": 3,
+    "name": "Aarav Sharma",
+    "email": "user@college.edu",
+    "password": "user123",
+    "role": "alumni",
+    "alumniId": 1,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aarav"
+  },
+  {
+    "id": 4,
+    "name": "David Saha",
+    "email": "david.saha172085@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 3,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=David172085"
+  },
+  {
+    "id": 5,
+    "name": "Zara Das",
+    "email": "zara.das157021@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 4,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zara157021"
+  },
+  {
+    "id": 6,
+    "name": "Rahul Rao",
+    "email": "rahul.rao232622@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 5,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul232622"
+  },
+  {
+    "id": 7,
+    "name": "James Jones",
+    "email": "james.jones136120@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 6,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=James136120"
+  },
+  {
+    "id": 8,
+    "name": "Sneha Dutta",
+    "email": "sneha.dutta198646@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 7,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha198646"
+  },
+  {
+    "id": 9,
+    "name": "Madhav Ghosh",
+    "email": "madhav.ghosh146558@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 8,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Madhav146558"
+  },
+  {
+    "id": 10,
+    "name": "Aarav Chatterjee",
+    "email": "aarav.chatterjee141195@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 9,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aarav141195"
+  },
+  {
+    "id": 11,
+    "name": "James Adhikary",
+    "email": "james.adhikary244784@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 10,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=James244784"
+  },
+  {
+    "id": 12,
+    "name": "John Nair",
+    "email": "john.nair222211@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 11,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=John222211"
+  },
+  {
+    "id": 13,
+    "name": "Pooja Gupta",
+    "email": "pooja.gupta232705@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 12,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Pooja232705"
+  },
+  {
+    "id": 14,
+    "name": "Rahul Brown",
+    "email": "rahul.brown197196@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 13,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul197196"
+  },
+  {
+    "id": 15,
+    "name": "Gaurav Iyer",
+    "email": "gaurav.iyer225220@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 14,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gaurav225220"
+  },
+  {
+    "id": 16,
+    "name": "Chaitanya Adhikary",
+    "email": "chaitanya.adhikary209204@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 15,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Chaitanya209204"
+  },
+  {
+    "id": 17,
+    "name": "Kavita Gupta",
+    "email": "kavita.gupta141948@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 16,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kavita141948"
+  },
+  {
+    "id": 18,
+    "name": "Isha Brown",
+    "email": "isha.brown164327@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 17,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Isha164327"
+  },
+  {
+    "id": 19,
+    "name": "Rahul Das",
+    "email": "rahul.das106414@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 18,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul106414"
+  },
+  {
+    "id": 20,
+    "name": "Madhav Johnson",
+    "email": "madhav.johnson244445@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 19,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Madhav244445"
+  },
+  {
+    "id": 21,
+    "name": "Deepak Bose",
+    "email": "deepak.bose109979@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 20,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Deepak109979"
+  },
+  {
+    "id": 22,
+    "name": "Rajesh Brown",
+    "email": "rajesh.brown245013@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 21,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh245013"
+  },
+  {
+    "id": 23,
+    "name": "Riya Joshi",
+    "email": "riya.joshi164124@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 22,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Riya164124"
+  },
+  {
+    "id": 24,
+    "name": "Yash Davis",
+    "email": "yash.davis208571@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 23,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yash208571"
+  },
+  {
+    "id": 25,
+    "name": "Amit Sen",
+    "email": "amit.sen245590@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 24,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Amit245590"
+  },
+  {
+    "id": 26,
+    "name": "John Das",
+    "email": "john.das118763@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 25,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=John118763"
+  },
+  {
+    "id": 27,
+    "name": "Harsh Singh",
+    "email": "harsh.singh191559@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 26,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Harsh191559"
+  },
+  {
+    "id": 28,
+    "name": "Meera Pillai",
+    "email": "meera.pillai237621@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 27,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Meera237621"
+  },
+  {
+    "id": 29,
+    "name": "Zara Ghosh",
+    "email": "zara.ghosh204603@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 28,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zara204603"
+  },
+  {
+    "id": 30,
+    "name": "John Smith",
+    "email": "john.smith108770@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 29,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=John108770"
+  },
+  {
+    "id": 31,
+    "name": "Jessica Saha",
+    "email": "jessica.saha218149@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 30,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica218149"
+  },
+  {
+    "id": 32,
+    "name": "Kabir Williams",
+    "email": "kabir.williams245137@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 31,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kabir245137"
+  },
+  {
+    "id": 33,
+    "name": "Tarun Das",
+    "email": "tarun.das244076@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 32,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tarun244076"
+  },
+  {
+    "id": 34,
+    "name": "Sanjay Rodriguez",
+    "email": "sanjay.rodriguez226436@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 33,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sanjay226436"
+  },
+  {
+    "id": 35,
+    "name": "Rohan Pillai",
+    "email": "rohan.pillai211793@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 34,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rohan211793"
+  },
+  {
+    "id": 36,
+    "name": "Jessica Brown",
+    "email": "jessica.brown199756@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 35,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica199756"
+  },
+  {
+    "id": 37,
+    "name": "Akash Banerjee",
+    "email": "akash.banerjee183326@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 36,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Akash183326"
+  },
+  {
+    "id": 38,
+    "name": "Siddharth Sharma",
+    "email": "siddharth.sharma224426@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 37,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Siddharth224426"
+  },
+  {
+    "id": 39,
+    "name": "Harsh Ghosh",
+    "email": "harsh.ghosh204040@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 38,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Harsh204040"
+  },
+  {
+    "id": 40,
+    "name": "Akash Reddy",
+    "email": "akash.reddy227095@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 39,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Akash227095"
+  },
+  {
+    "id": 41,
+    "name": "Isha Pillai",
+    "email": "isha.pillai201258@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 40,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Isha201258"
+  },
+  {
+    "id": 42,
+    "name": "Siddharth Roy",
+    "email": "siddharth.roy118267@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 41,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Siddharth118267"
+  },
+  {
+    "id": 43,
+    "name": "Daniel Saha",
+    "email": "daniel.saha113129@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 42,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel113129"
+  },
+  {
+    "id": 44,
+    "name": "Sarah Miller",
+    "email": "sarah.miller166909@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 43,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah166909"
+  },
+  {
+    "id": 45,
+    "name": "Yash Wilson",
+    "email": "yash.wilson142667@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 44,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yash142667"
+  },
+  {
+    "id": 46,
+    "name": "Aisha Deshmukh",
+    "email": "aisha.deshmukh217561@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 45,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aisha217561"
+  },
+  {
+    "id": 47,
+    "name": "Daniel Banerjee",
+    "email": "daniel.banerjee248024@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 46,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel248024"
+  },
+  {
+    "id": 48,
+    "name": "Sarah Mukherjee",
+    "email": "sarah.mukherjee166066@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 47,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah166066"
+  },
+  {
+    "id": 49,
+    "name": "James Mukherjee",
+    "email": "james.mukherjee129698@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 48,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=James129698"
+  },
+  {
+    "id": 50,
+    "name": "Madhav Williams",
+    "email": "madhav.williams257274@gmail.com",
+    "password": "password123",
+    "role": "alumni",
+    "alumniId": 49,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Madhav257274"
+  },
+  {
+    "id": "USR051",
+    "fullName": "R.K.Mownaprasath",
+    "name": "R.K.Mownaprasath",
+    "email": "rkmownaprasath@gmail.com",
+    "phone": "+91 7338920866",
+    "password": "$2a$10$FfIvPC8pyJGGuYcAYVZUeeFxn.P8BIwYEEsKqxX/t1Z//yIamVXGO",
+    "role": "Student",
+    "profileCompleted": true,
+    "alumniId": null,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=R.K.Mownaprasath",
+    "createdAt": "2026-08-03T14:44:36.383Z"
+  },
+  {
+    "id": "USR052",
+    "fullName": "Sarvesh P",
+    "name": "Sarvesh P",
+    "email": "sarvesh@gmail.com",
+    "phone": "+91 98532 88804",
+    "password": "$2a$10$BXTdV4edTYhlxjQGdcvF4uT4NjRyUriQ/V4OVAxkT4/fq8umcummG",
+    "role": "Alumni",
+    "profileCompleted": true,
+    "alumniId": 501,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=SarveshP",
+    "createdAt": "2026-08-03T14:46:33.439Z"
+  }
+]
