@@ -21,7 +21,14 @@ const PORT = process.env.PORT || 3000;
 
 // ── 1. Middleware ──────────────────────────────────
 // Enable Cross-Origin requests (browser → server)
-app.use(cors());
+app.use(cors({
+    origin: [
+        'http://localhost:3000',
+        'http://127.0.0.1:3000',
+        'https://sarvesh1209-06.github.io'
+    ],
+    credentials: true
+}));
 
 // Parse incoming JSON request bodies
 app.use(express.json({ limit: '10mb' }));
