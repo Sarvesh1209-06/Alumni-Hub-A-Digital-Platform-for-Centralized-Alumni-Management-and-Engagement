@@ -57,13 +57,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     submitBtn.disabled = false;
                 }
 
-            } catch (err) {
-                // Network error — server might not be running
-                console.error('Login API error:', err);
-                showToast('Cannot connect to server. Make sure the backend is running (node server.js).', 'error');
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-            }
+            }catch (err) {
+    console.error(err);
+    alert(err.message);
+    submitBtn.innerHTML = originalText;
+    submitBtn.disabled = false;
+}
         });
     }
 });
