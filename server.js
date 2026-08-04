@@ -17,7 +17,7 @@ const fs      = require('fs');
 const session = require('express-session');
 
 const app  = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // ── 1. Middleware ──────────────────────────────────
 // Enable Cross-Origin requests (browser → server)
