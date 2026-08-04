@@ -316,14 +316,14 @@ function saveProfileChanges() {
     if (index !== -1) {
         currentAlumniList[index] = currentAlumni;
         // Send update to backend API
-        fetch(`http://localhost:3000/api/alumni/${currentAlumniId}`, {
+        fetch(`https://alumni-hub-a-digital-platform-for.onrender.com/api/alumni/${currentAlumniId}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(currentAlumni)
         }).then(res => res.json()).then(resp => {
             if (resp && resp.success) {
                 // Refresh local cache from server
-                fetch('http://localhost:3000/api/alumni').then(r => r.json()).then(all => {
+                fetch('https://alumni-hub-a-digital-platform-for.onrender.com/api/alumni').then(r => r.json()).then(all => {
                     if (Array.isArray(all)) db.setAlumni(all);
                 }).catch(() => {});
 

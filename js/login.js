@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // POST credentials to backend API
-                const res = await fetch('http://localhost:3000/api/auth/login', {
+                    const res = await fetch('https://alumni-hub-a-digital-platform-for.onrender.com/api/auth/login', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ email: emailInput, password: passwordInput })

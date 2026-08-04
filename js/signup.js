@@ -248,7 +248,10 @@ async function registerBasicAccount() {
         const photoInput = document.getElementById('photo');
         if (photoInput && photoInput.files[0]) formData.append('photo', photoInput.files[0]);
 
-        const res = await fetch('http://localhost:3000/api/auth/register', { method: 'POST', body: formData });
+        const res = await fetch('https://alumni-hub-a-digital-platform-for.onrender.com/api/auth/register', {
+    method: 'POST',
+    body: formData
+});
         const data = await res.json();
         if (data.success && data.user && data.user.id) {
             document.getElementById('registeredUserId').value = data.user.id;
@@ -306,7 +309,10 @@ async function handleSubmit(e) {
             const photoInput = document.getElementById('photo');
             if (photoInput && photoInput.files[0]) formData.append('photo', photoInput.files[0]);
 
-            const res = await fetch('http://localhost:3000/api/auth/register', { method: 'POST', body: formData });
+            const res = await fetch('https://alumni-hub-a-digital-platform-for.onrender.com/api/auth/register', {
+                method: 'POST',
+                body: formData
+            });
             const data = await res.json();
 
             if (data.success) {
@@ -366,7 +372,7 @@ async function handleSubmit(e) {
             speakingEvents: document.getElementById('speakingEvents').checked
         };
 
-        const res = await fetch('http://localhost:3000/api/alumni', {
+        const res = await fetch('https://alumni-hub-a-digital-platform-for.onrender.com/api/alumni', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(profile)

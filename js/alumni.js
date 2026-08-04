@@ -591,7 +591,7 @@ function saveAlumni() {
             };
 
             // ── Sync to backend server (PUT request) ──
-            fetch(`http://localhost:3000/api/alumni/${parseInt(idVal)}`, {
+            fetch(`https://alumni-hub-a-digital-platform-for.onrender.com/api/alumni/${parseInt(idVal)}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(alumniList[index])
@@ -615,7 +615,7 @@ function saveAlumni() {
         alumniList.push(newAlumnus);
 
         // ── Sync to backend server (POST request) ──
-        fetch('http://localhost:3000/api/alumni', {
+       fetch('https://alumni-hub-a-digital-platform-for.onrender.com/api/alumni', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newAlumnus)
@@ -647,7 +647,7 @@ window.handleDelete = function(id) {
         db.setAlumni(alumniList);
 
         // ── Sync delete to backend server ──
-        fetch(`http://localhost:3000/api/alumni/${id}`, { method: 'DELETE' })
+        fetch(`https://alumni-hub-a-digital-platform-for.onrender.com/api/alumni/${id}`, { method: 'DELETE' })
             .then(r => r.json())
             .then(data => console.log('Delete synced to server:', data.message))
             .catch(err => console.warn('Could not sync delete to server:', err));

@@ -10,7 +10,7 @@
 
 // ── Backend API base URL ───────────────────────────
 // Change this if your server runs on a different port
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'https://alumni-hub-a-digital-platform-for.onrender.com/api';
 
 // ── API Helper: generic fetch wrapper ─────────────
 async function apiCall(method, endpoint, body = null) {
